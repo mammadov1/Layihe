@@ -385,7 +385,7 @@ header img {
         top: 855.42px;
         border-radius: 50%;
         z-index: 1;
-    }
+    } 
 }
 
 @media(min-width: 320px) and (max-width:991px) {
