@@ -220,7 +220,7 @@ header img {
 
 
     /*Ramila start*/
-.ramila1 h2{
+.content h2{
     position: absolute;
     width: 365px;
     height: 93px;
@@ -232,7 +232,7 @@ header img {
     color: #000000;
     
 }
-.ramila1 p{
+.content p{
     position: absolute;
 width: 662px;
 height: 374px;
@@ -243,37 +243,41 @@ font-size: 24px;
 line-height: 150%;
 color: #000000;
 }
-.ramila1 img{
+.content img{
     position: absolute;
 width: 314px;
 height: 315px;
 left: 973px;
 top: 1175px;
 background: url(_1);
+z-index: 2;
 }
-.ramila1 .circle{
+.content .circle{
     position: absolute;
 width: 366px;
 height: 59px;
 left: 947px;
 top: 1460px;
 background: #EFEFEF;
+z-index: 1;
 }
-.ramila2 img{
+.text img{
     position: absolute;
 width: 232px;
 height: 203px;
 left: 161px;
 top: 1612px;
 background: url(photo);
+z-index: 2;
 }
-.ramila2 .circle{
+.text .circle{
     position: absolute;
 width: 189px;
 height: 32px;
 left: 154px;
 top: 1806px;
 background: #EFEFEF;
+z-index: 1;
 }
 .lesson h4{
     position: absolute;
@@ -569,8 +573,130 @@ color: #000000;
     }
 
     /*Ramila start*/
-
-
+.content h2{
+    position: absolute;
+width: 211.4px;
+height: 53.86px;
+left: 70.08px;
+top: 612.17px;
+font-weight: 700;
+font-size: 32px;
+line-height: 101.38%;
+color: #000000;
+}
+.content p{
+    position: absolute;
+width: 383.41px;
+height: 216.61px;
+left: 70.08px;
+top: 676.46px;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #000000;
+}
+.content img{
+    position: absolute;
+width: 181.86px;
+height: 182.44px;
+left: 563.53px;
+top: 690.36px;
+background: url(_1.png);
+z-index: 2;
+}
+.content .circle{
+    position: absolute;
+width: 211.98px;
+height: 34.17px;
+left: 548.47px;
+top: 855.42px;
+background: #EFEFEF;
+z-index: 1;
+}
+.text img{
+    position: absolute;
+width: 134.37px;
+height: 117.57px;
+left: 70.08px;
+top: 947.51px;
+background: url(photo);
+z-index: 2;
+}
+.text .circle{
+    position: absolute;
+width: 109.46px;
+height: 18.53px;
+left: 89.19px;
+top: 1055.81px;
+background: #EFEFEF;
+z-index: 1;
+}
+.lesson h4{
+    position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 280.9px;
+top: 988.05px;
+font-weight: 700;
+font-size: 15px;
+line-height: 130%;
+color: #000000;
+}
+.lesson p{
+    position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 280.9px;
+top: 1011.22px;
+font-weight: 400;
+font-size: 11px;
+line-height: 130%;
+color: #000000;
+}
+.hour h4{
+    position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 422.79px;
+top: 988.05px;
+font-weight: 700;
+font-size: 15px;
+line-height: 130%;
+color: #000000;
+}
+.hour p{
+    position: absolute;
+width: 108px;
+height: 23px;
+left: 423px;
+top: 1011px;
+font-weight: 400;
+font-size: 11px;
+line-height: 130%;
+color: #000000;
+}
+.weak h4{
+    position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 563.53px;
+top: 988.05px;
+font-weight: 700;
+font-size: 15px;
+line-height: 130%;
+color: #000000;
+}
+.weak p{
+    position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 563.53px;
+top: 1011.22px;
+font-weight: 400;
+font-size: 11px;
+line-height: 130%;
+color: #000000;
+}
 
     /*Ramila end*/
 
@@ -728,8 +854,117 @@ color: #000000;
 
     
      /*Ramila start*/
-
-
+.content h2{
+    position: absolute;
+width: 170.08px;
+height: 43.34px;
+left: 36px;
+top: 636px;
+font-weight: 700;
+font-size: 26px;
+line-height: 101.38%;
+color: #000000;
+}
+.content p{
+    position: absolute;
+width: 308.47px;
+height: 174.27px;
+left: 36px;
+top: 687.72px;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+color: #000000;
+}
+.content img{
+    position: absolute;
+width: 170.55px;
+height: 160.29px;
+left: 101px;
+top: 918px;
+z-index: 2;
+}
+.content .circle{
+    position: absolute;
+width: 170.55px;
+height: 27.49px;
+left: 101px;
+top: 1050.8px;
+background: #EFEFEF;
+z-index: 1;
+}
+.text img{
+    display: none;
+}
+.text .circle{
+    display: none;
+}
+.lesson h4{
+    position: absolute;
+width: 69.9px;
+height: 18.17px;
+left: 35px;
+top: 1124px;
+font-weight: 700;
+font-size: 12px;
+line-height: 130%;
+color: #000000;
+}
+.lesson p{
+    position: absolute;
+width: 86px;
+height: 18px;
+left: 35px;
+top: 1143px;
+font-weight: 400;
+font-size: 10px;
+line-height: 130%;
+color: #000000;
+}
+.hour h4{
+    position: absolute;
+width: 69.9px;
+height: 18.17px;
+left: 154.16px;
+top: 1124px;
+font-weight: 700;
+font-size: 12px;
+line-height: 130%;
+color: #000000;
+}
+.hour p{
+    position: absolute;
+width: 86.89px;
+height: 18.5px;
+left: 154.33px;
+top: 1142.46px;
+font-weight: 400;
+font-size: 10px;
+line-height: 130%;
+color: #000000;
+}
+.weak h4{
+    position: absolute;
+width: 69.9px;
+height: 18.17px;
+left: 35px;
+top: 1195px;
+font-weight: 700;
+font-size: 12px;
+line-height: 130%;
+color: #000000;
+}
+.weak p{
+    position: absolute;
+width: 76px;
+height: 18px;
+left: 35px;
+top: 1214px;
+font-weight: 400;
+font-size: 10px;
+line-height: 130%;
+color: #000000;
+}
 
       /*Ramila end*/
 
