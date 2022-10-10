@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +8,9 @@
 }
 
 .container {
+
     position: relative;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 6575px;
 }
 
@@ -349,7 +353,82 @@ color: #000000;
 
     /*Ferid end*/
 
-@media(min-width:992px) and (max-width:1279px) {
+/*Naila Aliyeva start*/
+.card {
+    padding: 5em 0em 3em;
+    background-color: #EFEFEF;
+}
+.card .cardHead2{
+    width: 987px;
+    height: 93px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    line-height: 101.38%;
+    margin-bottom: 35px;
+    margin-left: 122px;
+} 
+.card .box  {
+    height: 451px;
+    width: 791px;
+    border-radius: 30px;
+    margin-left: 126px;
+    padding: 20px;
+    padding-left: 40px;
+    box-shadow: 1px 1px 20px 0px #00000040;
+    background-color: white;
+    margin-bottom: 100px;
+}
+.card .box .up{
+    height: 203px;
+    width: 700px;
+    left: 170px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    padding-top: 20px;
+    padding-right: 0px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+.card .box .down {
+    display: flex;
+    align-items: center;
+}
+.card .box .down .cardleft{
+    height: 169px;
+    width: 190px;
+    left: 151px;
+}
+.card .box .down .cardright {
+    margin-left: 30px;
+}
+.card .box .down .cardright p {
+    height: 59px;
+    width: 353px;
+    left: 371px;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    line-height: 101.38%;
+    margin-bottom: -5px;
+}
+.card .box .down .cardright img {
+    height: 31px;
+    width: 32px;
+    left: 371px;
+}
+
+
+/*Naila Aliyeva end*/
+
+@media (min-width:991px) and (max-width:1279px) {
     
     
     
@@ -502,7 +581,9 @@ color: #000000;
 
     /*Ferid end*/
 
+    /*Naila Aliyeva start*/
     
+    /*Naila Aliyeva end*/   
 }
 
 @media(min-width: 320px) and (max-width:991px) {
@@ -658,6 +739,10 @@ color: #000000;
 
 
        /*Ferid end*/
+
+    /*Naila Aliyeva start*/
+     
+    /*Naila Aliyeva end*/
 
     
     
