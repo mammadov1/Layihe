@@ -209,8 +209,15 @@ header img {
     z-index: 1;
 }
 
+
+    /*Ramila start*/
+
+
+
+    /*Ramila end*/
+
 @media(min-width:992px) and (max-width:1279px) {
-    /*ss*/
+    
     
     
     header img {
@@ -347,48 +354,13 @@ header img {
         display: inline-block;
     }
 
-    .aboutTheCourse h2 {
-        position: absolute;
-        width: 211.4px;
-        height: 53.86px;
-        left: 70.08px;
-        top: 612.17px;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 101.38%;
-        color: #000000;
-    }
+    /*Ramila start*/
 
-    .aboutTheCourse p {
-        position: absolute;
-        width: 383.41px;
-        height: 216.61px;
-        left: 70.08px;
-        top: 676.46px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 150%;
-        color: #000000;
-    }
 
-    .aboutTheCourse img {
-        position: absolute;
-        width: 181.86px;
-        height: 182.44px;
-        left: 563.53px;
-        top: 690.36px;
-        z-index: 2;
-    }
 
-    .aboutTheCourse .circle {
-        position: absolute;
-        width: 211.98px;
-        height: 34.17px;
-        left: 548.47px;
-        top: 855.42px;
-        border-radius: 50%;
-        z-index: 1;
-    } 
+    /*Ramila end*/
+
+    
 }
 
 @media(min-width: 320px) and (max-width:991px) {
@@ -527,47 +499,14 @@ header img {
         display: inline-block;
     }
 
-    .aboutTheCourse h2 {
-        position: absolute;
-        width: 170.08px;
-        height: 43.34px;
-        left: 36px;
-        top: 636px;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 101.38%;
-        color: #000000;
-    }
 
-    .aboutTheCourse p {
-        position: absolute;
-        width: 308.47px;
-        height: 174.27px;
-        left: 36px;
-        top: 687.72px;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 150%;
-        color: #000000;
-    }
+    
+     /*Ramila start*/
 
-    .aboutTheCourse img {
-        position: absolute;
-        width: 146.32px;
-        height: 146.78px;
-        left: 113.12px;
-        top: 918px;
-        z-index: 2;
-    }
 
-    .aboutTheCourse .circle {
-        position: absolute;
-        width: 170.55px;
-        height: 27.49px;
-        left: 101px;
-        top: 1050.8px;
-        background: #EFEFEF;
-        border-radius: 50%;
-        z-index: 1;
-    }
+
+      /*Ramila end*/
+
+    
+    
 }
