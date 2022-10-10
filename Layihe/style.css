@@ -118,6 +118,7 @@ header img {
     top: 666.62px;
     background: #1E4681;
     border-radius: 5px;
+    
 }
 
 .about p {
@@ -129,6 +130,8 @@ header img {
     font-size: 25px;
     line-height: 130%;
     color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 15px;
 
 }
 
@@ -143,6 +146,8 @@ header img {
     text-align: right;
     color: #FFFFFF;
     display: inline-block;
+    margin-left: 125px;
+    margin-top: 15px;
 }
 
 .aboutTheCourse h2 {
@@ -336,6 +341,14 @@ color: #000000;
 
     /*Ramila end*/
 
+
+
+    /*Ferid start*/
+
+
+
+    /*Ferid end*/
+
 @media(min-width:992px) and (max-width:1279px) {
     
     
@@ -479,6 +492,13 @@ color: #000000;
 
 
     /*Ramila end*/
+
+
+    /*Ferid start*/
+
+
+
+    /*Ferid end*/
 
     
 }
@@ -626,6 +646,13 @@ color: #000000;
 
 
       /*Ramila end*/
+
+
+      /*Ferid start*/
+
+
+
+       /*Ferid end*/
 
     
     
