@@ -210,6 +210,9 @@ header img {
 }
 
 @media(min-width:992px) and (max-width:1279px) {
+    /*ss*/
+    
+    
     header img {
         position: absolute;
         width: 64.87px;
