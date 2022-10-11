@@ -1127,7 +1127,89 @@ header img {
 
 
     /*Naila Aliyeva start*/
-     
+    .card{
+        padding: 10vw 0 3em;
+        background: #EFEFEF;
+        width: 100.26vw;
+        height: 112.8vw;
+    }
+    .card .cardHead2 {
+        width: 68.5vw;
+        height: 18.4vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 6.93vw;
+        margin-bottom: 2.93vw;
+        margin-left: 8.4vw;
+        color: #000000;
+        line-height: 101.38%;
+    }
+    .card .box {
+        height: 66.13vw;
+        width: 82.13vw;
+        border-radius: 3.73vw;
+        margin-left: 8.7vw;
+        padding: 1.3vw;
+        padding-left: 2.7vw;
+        box-shadow: 1px 1px 20px 0px #00000040;
+        background-color: white;
+    }
+    .card .box .up{
+        height: 29.6vw;
+        width: 70.93vw;
+        left: 11.8vw;
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 2.66vw;
+        font-weight: 700;
+        color: #000000;
+        line-height: 4vw;
+        padding-top: 1.3vw;
+        padding-right: 0vw;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        margin-bottom: 1.04vw;
+    }
+    .card .box .down {
+        display: flex;
+        align-items: center;
+    }
+    .card .box .down .cardleft{
+        height: 11.7vw;
+        width: 13.19vw;
+        left: 10.4vw;
+    }
+    .card .box .down .cardleft img {
+        height: 22.4vw;
+        width: 24.33vw;
+        margin-left: 0vw;
+        margin-bottom: 3.46vw;
+    }
+    .card .box .down .cardright {
+        margin-left: 2vw;
+    }
+    .card .box .down .cardright p {
+        height: 8.728vw;
+        width: 43.864vw;
+        font-family: Roboto Slab;
+        font-weight: 700;
+        font-size: 3.73vw;
+        font-style: normal;
+        color: #000000;
+        line-height: 101.38%;
+        margin-top: 10.416vw;
+        margin-left: 9vw;
+        margin-bottom: -0.3vw;
+    }
+    .card .box .down .cardright img {
+        height: 4.586vw;
+        width: 3.976vw;
+        margin-left: 9vw;
+    }
+    body,html{
+        overflow-x: hidden;
+    }
     /*Naila Aliyeva end*/
 
     
