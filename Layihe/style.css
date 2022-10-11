@@ -200,6 +200,7 @@ header img {
     top: 1460px;
     background: #EFEFEF;
     z-index: 1;
+    border-radius: 50%;
 }
 
 .text img {
@@ -208,19 +209,10 @@ header img {
     height: 203px;
     left: 161px;
     top: 1612px;
-    background: url(photo);
     z-index: 2;
 }
 
-.text .circle {
-    position: absolute;
-    width: 189px;
-    height: 32px;
-    left: 154px;
-    top: 1806px;
-    background: #EFEFEF;
-    z-index: 1;
-}
+
 
 .lesson h4 {
     position: absolute;
@@ -306,42 +298,7 @@ header img {
 /*Ferid end*/
 
 
-/*Mecid Ramile start*/
-.programCourse .txt h2 {
-    position: absolute;
-    width: 905px;
-    height: 93px;
-    left: 121px;
-    top: 3246px;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 101.38%;
-    color: #000000;
-}
 
- .courseBox .box1{
-    position: absolute;
-    width: 399px;
-    height: 328px;
-    left: 84px;
-    top: 3434px;
-    background: #FFFFFF;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-}
-
-.programCourse .courseBox .box1 img {
-    position: absolute;
-    width: 399px;
-    height: 160px;
-    left: 84px;
-    top: 3434px;
-    
-}
-
-
-
-/*Mecid Ramile end*/
 
 /*Naila Aliyeva start*/
 .card {
@@ -601,6 +558,7 @@ header img {
         top: 855.42px;
         background: #EFEFEF;
         z-index: 1;
+        border-radius: 50%;
     }
 
     .text img {
@@ -613,15 +571,6 @@ header img {
         z-index: 2;
     }
 
-    .text .circle {
-        position: absolute;
-        width: 109.46px;
-        height: 18.53px;
-        left: 89.19px;
-        top: 1055.81px;
-        background: #EFEFEF;
-        z-index: 1;
-    }
 
     .lesson h4 {
         position: absolute;
@@ -970,16 +919,14 @@ header img {
         top: 1050.8px;
         background: #EFEFEF;
         z-index: 1;
+        border-radius: 50%;
     }
 
     .text img {
         display: none;
     }
 
-    .text .circle {
-        display: none;
-    }
-
+    
     .lesson h4 {
         position: absolute;
         width: 69.9px;
