@@ -708,7 +708,82 @@ color: #000000;
     /*Ferid end*/
 
     /*Naila Aliyeva start*/
-    
+    .card{
+        padding: 5em 0em 3em;
+        background: #EFEFEF;
+    }
+    .card .cardHead2 {
+        height: 6.4vw;
+        width: 68.5vw;
+        font-family: Roboto Slab;
+        font-size: 3.8vw;
+        font-style: normal;
+        font-weight: bold;
+        color: #000000;
+        line-height: 101.38%;
+        margin-left: 8.4vw;
+    }
+    .card .box {
+        height: 31vw;
+        width: 55vw;
+        border-radius: 2vw;
+        margin-left: 8.7vw;
+        padding: 1.3vw;
+        padding-left: 2.7vw;
+        box-shadow: 1px 1px 20px 0px #00000040;
+        background-color: white;
+        margin-bottom: 7vw;
+    }
+    .card .box .up {
+        height: 14vw;
+        width: 48vw;
+        left: 11.8vw;
+        font-family: Roboto;
+        font-size: 1.3vw;
+        font-style: normal;
+        font-weight: 400;
+        color: #000000;
+        line-height: 150%;
+        padding-top: 1.3vw;
+        padding-right: 0vw;
+        margin-bottom: 1.04vw;
+    }
+    .card .box .down {
+        display: flex;
+        align-items: center;
+    }
+    .card .box .down .cardleft {
+        height: 11.7vw;
+        width: 13.19vw;
+        left: 10.4vw;
+    }
+    .card .box .down .cardleft img {
+        height: 11vw;
+        width: 12.5vw;
+    }
+    .card .box .down .cardright {
+        margin-left: 2vw;
+    }
+    .card .box .down .cardright p {
+        height: 4vw;
+        width: 24.5vw;
+        left: 25.7vw;
+        font-family: Roboto Slab;
+        font-size: 2vw;
+        font-weight: bold;
+        font-style: normal;
+        color: #000000;
+        line-height: 101.38%;
+        margin-bottom: -0.3vw;
+    }
+    .card .box .down .cardright img {
+        height: 2.1vw;
+        width: 2.2vw;
+        left: 25.7vw;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
     /*Naila Aliyeva end*/   
 }
 
