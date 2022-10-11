@@ -298,6 +298,68 @@ header img {
 /*Ferid end*/
 
 
+/*Ramila start*/
+.programcourse h1{
+width: 905px;
+height: 93px;
+left: 151px;
+top: 3259px;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+color: #000000;
+} 
+.yellowBlock{
+
+display: flex;
+flex-direction: column;
+width: 399px;
+height: 328px;
+left: 84px;
+top: 3434px;
+background: #FFFFFF;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.yellowBlock img{
+
+width: 399px;
+height: 160px;
+left: 84px;
+top: 3434px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+
+.yellowBlock h4{
+
+width: 365px;
+height: 39px;
+left: 104px;
+top: 3605px;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+}
+
+.yellowBlock p{
+ 
+width: 365px;
+height: 63px;
+left: 151px;
+top: 3676px;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #000000;
+}
+
+
+/*Ramila end*/
+
+
 
 
 /*Naila Aliyeva start*/
