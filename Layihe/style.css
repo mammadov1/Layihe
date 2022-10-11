@@ -154,69 +154,6 @@ header img {
     margin-top: 15px;
 }
 
-.aboutTheCourse h2 {
-    position: absolute;
-    width: 365px;
-    height: 93px;
-    left: 121px;
-    top: 1040px;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 101.38%;
-    color: #000000;
-}
-
-.aboutTheCourse p {
-    position: absolute;
-    width: 662px;
-    height: 374px;
-    left: 121px;
-    top: 1151px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 150%;
-    color: #000000;
-}
-
-.aboutTheCourse img {
-    position: absolute;
-    width: 314px;
-    height: 315px;
-    left: 973px;
-    top: 1175px;
-    z-index: 2;
-}
-
-.aboutTheCourse .circle {
-    position: absolute;
-    width: 366px;
-    height: 59px;
-    left: 947px;
-    top: 1460px;
-    background: #EFEFEF;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.LessonTime .image img {
-    position: absolute;
-    width: 232px;
-    height: 203px;
-    left: 121px;
-    top: 1619px;
-    z-index: 2;
-}
-
-.LessonTime .image .circle {
-    position: absolute;
-    width: 189px;
-    height: 32px;
-    left: 154px;
-    top: 1806px;
-    background: #EFEFEF;
-    border-radius: 50%;
-    z-index: 1;
-}
 
 
 /*Ramila start*/
