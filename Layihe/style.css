@@ -406,12 +406,6 @@ header img {
 
 /*Mecid Ramile end*/
 
-<<<<<<< HEAD
-@media(min-width:992px) and (max-width:1279px) {
-
-
-
-=======
 /*Naila Aliyeva start*/
 .card {
     padding: 5em 0em 3em;
@@ -491,7 +485,6 @@ header img {
     
     
     
->>>>>>> caee987a7dc709d2dc0b0cb0818c850775244097
     header img {
         position: absolute;
         width: 64.87px;
@@ -774,13 +767,10 @@ header img {
 
     /*Ferid end*/
 
-<<<<<<< HEAD
-
-
-
-
-=======
     /*Naila Aliyeva start*/
+    html,body{
+        overflow-x: hidden;
+    }
     .card{
         padding: 5em 0em 3em;
         background: #EFEFEF;
@@ -858,7 +848,6 @@ header img {
         overflow-x: hidden;
     }
     /*Naila Aliyeva end*/   
->>>>>>> caee987a7dc709d2dc0b0cb0818c850775244097
 }
 
 @media(min-width: 320px) and (max-width:991px) {
