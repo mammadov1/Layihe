@@ -8,7 +8,6 @@
 }
 
 .container {
-    width: 1440px;
     height: 2500px;
 }
 
@@ -19,11 +18,16 @@ header img {
     margin-top: 60px;
 }
 
+.time{
+    display: flex;
+    flex-direction: row;
+    
+}
 .time .course img {
     width: 22px;
     height: 21px;
     margin-left: 121px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .time .course p {
@@ -40,14 +44,14 @@ header img {
 .time .clock img {
     width: 22px;
     height: 22px;
-    margin-left: 306px;
-    margin-top: -100px;
+    margin-left: 70px;
+    margin-top: 100px;
 }
 
 .time .clock p {
     width: 130px;
     height: 32px;
-    margin-left: 338px;
+    margin-left: 100px;
     margin-top: -25px;
     font-weight: 400;
     font-size: 20px;
@@ -58,14 +62,14 @@ header img {
 .time .calendar img {
     width: 20px;
     height: 22px;
-    margin-left: 467px;
-    margin-top: -100px;
+    margin-left: 65px;
+    margin-top: 100px;
 }
 
 .time .calendar p {
     width: 130px;
     height: 32px;
-    margin-left: 500px;
+    margin-left: 100px;
     margin-top: -25px;
     font-weight: 400;
     font-size: 20px;
@@ -115,8 +119,6 @@ header img {
 .about p {
     width: 430.59px;
     height: 113px;
-    margin-left: 435.42px;
-    margin-top: -25px;
     font-weight: 400;
     font-size: 25px;
     line-height: 130%;
@@ -130,8 +132,6 @@ header img {
 .about span {
     width: 280.5px;
     height: 45.64px;
-    margin-left: 594px;
-    margin-top: 821px;
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
@@ -140,7 +140,7 @@ header img {
     display: inline-block;
     margin-left: 125px;
     margin-top: 15px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 
@@ -730,7 +730,6 @@ color: #000000;
 @media (min-width:991px) and (max-width:1279px) {
     
     .container {
-        width: 800;
         height: 1500;
     }
     
