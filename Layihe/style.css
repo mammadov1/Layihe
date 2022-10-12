@@ -325,276 +325,275 @@ line-height: 130%;
 color: #000000;
 }
 .twoBlock{
-    display: flex;
-    flex-direction: column;
-    width: 399px;
-    height: 328px;
-    margin-left: 530px;
-    margin-top: -328px;
-    background: #FFFFFF;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+display: flex;
+flex-direction: column;
+width: 399px;
+height: 328px;
+margin-left: 530px;
+margin-top: -328px;
+background: #FFFFFF;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
     }
     
-    .twoBlock img{
-    width: 399px;
-    height: 160px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    }
+.twoBlock img{
+width: 399px;
+height: 160px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
     
-    .twoBlock h4{
-    width: 365px;
-    height: 39px;
-    padding-left: 25px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 130%;
-    color: #000000;
-    }
+.twoBlock h4{
+width: 365px;
+height: 39px;
+padding-left: 25px;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+}
     
-    .twoBlock p{
-    width: 365px;
-    height: 63px;
-    padding-left: 25px;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 130%;
-    color: #000000;
-    }
+.twoBlock p{
+width: 365px;
+height: 63px;
+padding-left: 25px;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #000000;
+}
 
-    .threeBlock{
-        display: flex;
-        flex-direction: column;
-        width: 399px;
-        height: 328px;
-        margin-left: 960px;
-        margin-top: -328px;
-        background: #FFFFFF;
-        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-        border-radius: 30px;
-        }
+.threeBlock{
+display: flex;
+flex-direction: column;
+width: 399px;
+height: 328px;
+margin-left: 960px;
+margin-top: -328px;
+background: #FFFFFF;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
         
-        .threeBlock img{
-        width: 399px;
-        height: 160px;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        }
+.threeBlock img{
+ width: 399px;
+height: 160px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
         
-        .threeBlock h4{
-        width: 365px;
-        height: 39px;
-        padding-left: 25px;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 130%;
-        color: #000000;
-        }
+.threeBlock h4{
+width: 365px;
+height: 39px;
+padding-left: 25px;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+}
         
-        .threeBlock p{
-        width: 365px;
-        height: 63px;
-        padding-left: 25px;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 130%;
-        color: #000000;
-        }
-        .foorBlock{
-            display: flex;
-            flex-direction: column;
-            width: 399px;
-            height: 328px;
-            margin-left: 100px;
-            margin-top: 100px;
-            background: #FFFFFF;
-            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-            border-radius: 30px;
-            }
+.threeBlock p{
+width: 365px;
+height: 63px;
+padding-left: 25px;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #000000;
+}
+.foorBlock{
+display: flex;
+flex-direction: column;
+width: 399px;
+height: 328px;
+margin-left: 100px;
+margin-top: 100px;
+background: #FFFFFF;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
             
-            .foorBlock img{
-            width: 399px;
-            height: 160px;
-            border-top-left-radius: 30px;
-            border-top-right-radius: 30px;
-            }
+.foorBlock img{
+width: 399px;
+height: 160px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
             
-            .foorBlock h4{
-            width: 365px;
-            height: 39px;
-            padding-left: 25px;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 130%;
-            color: #000000;
-            }
+.foorBlock h4{
+width: 365px;
+height: 39px;
+padding-left: 25px;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+}
             
-            .foorBlock p{
-            width: 365px;
-            height: 63px;
-            padding-left: 25px;
-            font-weight: 400;
-            font-size: 25px;
-            line-height: 130%;
-            color: #000000;
-            }
+.foorBlock p{
+width: 365px;
+height: 63px;
+padding-left: 25px;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #000000;
+}
 
-            .fiveBlock{
-                display: flex;
-                flex-direction: column;
-                width: 399px;
-                height: 328px;
-                margin-left: 530px;
-                margin-top: -328px;
-                background: #FFFFFF;
-                box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-                border-radius: 30px;
-                }
+.fiveBlock{
+display: flex;
+flex-direction: column;
+width: 399px;
+height: 328px;
+margin-left: 530px;
+margin-top: -328px;
+background: #FFFFFF;
+border-radius: 30px;
+}
                 
-                .fiveBlock img{
-                width: 399px;
-                height: 160px;
-                border-top-left-radius: 30px;
-                border-top-right-radius: 30px;
-                }
+.fiveBlock img{
+width: 399px;
+height: 160px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
                 
-                .fiveBlock h4{
-                width: 365px;
-                height: 39px;
-                padding-left: 25px;
-                font-weight: 700;
-                font-size: 30px;
-                line-height: 130%;
-                color: #000000;
-                }
+.fiveBlock h4{
+width: 365px;
+height: 39px;
+padding-left: 25px;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+}
                 
-                .fiveBlock p{
-                width: 365px;
-                height: 63px;
-                padding-left: 25px;
-                font-weight: 400;
-                font-size: 25px;
-                line-height: 130%;
-                color: #000000;
-                }
-                .sixBlock{
-                    display: flex;
-                    flex-direction: column;
-                    width: 399px;
-                    height: 328px;
-                    margin-left: 960px;
-                    margin-top: -328px;
-                    background: #FFFFFF;
-                    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-                    border-radius: 30px;
-                    }
+.fiveBlock p{
+width: 365px;
+height: 63px;
+padding-left: 25px;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #000000;
+}
+.sixBlock{
+display: flex;
+flex-direction: column;
+width: 399px;
+height: 328px;
+margin-left: 960px;
+margin-top: -328px;
+background: #FFFFFF;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
                     
-                    .sixBlock img{
-                    width: 399px;
-                    height: 160px;
-                    border-top-left-radius: 30px;
-                    border-top-right-radius: 30px;
-                    }
+.sixBlock img{
+width: 399px;
+height: 160px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
                     
-                    .sixBlock h4{
-                    width: 365px;
-                    height: 39px;
-                    padding-left: 25px;
-                    font-weight: 700;
-                    font-size: 30px;
-                    line-height: 130%;
-                    color: #000000;
-                    }
+.sixBlock h4{
+width: 365px;
+height: 39px;
+padding-left: 25px;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+}
                     
-                    .sixBlock p{
-                    width: 365px;
-                    height: 63px;
-                    padding-left: 25px;
-                    font-weight: 400;
-                    font-size: 25px;
-                    line-height: 130%;
-                    color: #000000;
-                    }
+.sixBlock p{
+width: 365px;
+height: 63px;
+padding-left: 25px;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #000000;
+}
 
-                    .sevenBlock{
-                        display: flex;
-                        flex-direction: column;
-                        width: 399px;
-                        height: 328px;
-                        margin-left: 100px;
-                        margin-top: 100px;
-                        margin-bottom: 300px;
-                        background: #FFFFFF;
-                        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-                        border-radius: 30px;
-                        }
+.sevenBlock{
+display: flex;
+flex-direction: column;
+width: 399px;
+height: 328px;
+margin-left: 100px;
+margin-top: 100px;
+margin-bottom: 300px;
+background: #FFFFFF;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
                         
-                        .sevenBlock img{
-                        width: 399px;
-                        height: 160px;
-                        border-top-left-radius: 30px;
-                        border-top-right-radius: 30px;
-                        }
+.sevenBlock img{
+width: 399px;
+height: 160px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+                                                
+.sevenBlock h4{
+width: 365px;
+height: 39px;
+padding-left: 25px;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+}
                         
-                        .sevenBlock h4{
-                        width: 365px;
-                        height: 39px;
-                        padding-left: 25px;
-                        font-weight: 700;
-                        font-size: 30px;
-                        line-height: 130%;
-                        color: #000000;
-                        }
-                        
-                        .sevenBlock p{
-                        width: 365px;
-                        height: 63px;
-                        padding-left: 25px;
-                        font-weight: 400;
-                        font-size: 25px;
-                        line-height: 130%;
-                        color: #000000;
-                        }
-                        .eightBlock{
-                            display: flex;
-                            flex-direction: column;
-                            width: 399px;
-                            height: 328px;
-                            margin-left: 530px;
-                            margin-top: -628px;
-                            background: #FFFFFF;
-                            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-                            border-radius: 30px;
-                            }
+.sevenBlock p{
+width: 365px;
+height: 63px;
+padding-left: 25px;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #000000;
+}
+.eightBlock{
+display: flex;
+flex-direction: column;
+width: 399px;
+height: 328px;
+margin-left: 530px;
+margin-top: -628px;
+background: #FFFFFF;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
                             
-                            .eightBlock img{
-                            width: 399px;
-                            height: 160px;
-                            border-top-left-radius: 30px;
-                            border-top-right-radius: 30px;
-                            }
+.eightBlock img{
+width: 399px;
+height: 160px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
                             
-                            .eightBlock h4{
-                            width: 365px;
-                            height: 39px;
-                            padding-left: 25px;
-                            font-weight: 700;
-                            font-size: 30px;
-                            line-height: 130%;
-                            color: #000000;
-                            }
+.eightBlock h4{
+width: 365px;
+height: 39px;
+padding-left: 25px;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+}
                             
-                            .eightBlock p{
-                            width: 365px;
-                            height: 63px;
-                            padding-left: 25px;
-                            padding-top: 30px;
-                            font-weight: 400;
-                            font-size: 25px;
-                            line-height: 130%;
-                            color: #000000;
-                            }
+.eightBlock p{
+width: 365px;
+height: 63px;
+padding-left: 25px;
+padding-top: 30px;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+color: #000000;
+}
 /*Ramila end*/
 
 
@@ -928,6 +927,12 @@ color: #000000;
 
 
     /*Ferid end*/
+
+
+    /*Ramila start*/
+
+
+    /*Ramila end*/
 
     /*Naila Aliyeva start*/
     html,body{
