@@ -15,27 +15,24 @@
 }
 
 header img {
-    position: absolute;
     width: 112px;
     height: 66px;
-    left: 121px;
-    top: 21px;
+    margin-left: 121px;
+    margin-top: 21px;
 }
 
 .time .course img {
-    position: absolute;
     width: 22px;
     height: 21px;
-    left: 121px;
-    top: 184px;
+    margin-left: 121px;
+    margin-top: 100px;
 }
 
 .time .course p {
-    position: absolute;
     width: 130px;
     height: 32px;
-    left: 151px;
-    top: 187px;
+    margin-left: 151px;
+    margin-top: -25px;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
@@ -43,19 +40,17 @@ header img {
 }
 
 .time .clock img {
-    position: absolute;
     width: 22px;
     height: 22px;
-    left: 306px;
-    top: 183px;
+    margin-left: 306px;
+    margin-top: -100px;
 }
 
 .time .clock p {
-    position: absolute;
     width: 130px;
     height: 32px;
-    left: 338px;
-    top: 187px;
+    margin-left: 338px;
+    margin-top: -25px;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
@@ -63,19 +58,17 @@ header img {
 }
 
 .time .calendar img {
-    position: absolute;
     width: 20px;
     height: 22px;
-    left: 467px;
-    top: 183px;
+    margin-left: 467px;
+    margin-top: -100px;
 }
 
 .time .calendar p {
-    position: absolute;
     width: 130px;
     height: 32px;
-    left: 500px;
-    top: 187px;
+    margin-left: 500px;
+    margin-top: -25px;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
@@ -83,11 +76,10 @@ header img {
 }
 
 .movie h1 {
-    position: absolute;
     width: 628px;
     height: 190px;
-    left: 122px;
-    top: 248px;
+    margin-left: 122px;
+    margin-top: 15px;
     font-weight: 700;
     font-size: 80px;
     line-height: 101.38%;
@@ -95,11 +87,10 @@ header img {
 }
 
 .movie p {
-    position: absolute;
     width: 414px;
     height: 62px;
-    left: 122px;
-    top: 427px;
+    margin-left: 122px;
+    margin-top: 2px;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
@@ -107,19 +98,17 @@ header img {
 }
 
 .movie img {
-    position: absolute;
     width: 304px;
     height: 356px;
-    left: 890px;
-    top: 223px;
+    margin-left: 890px;
+    margin-top: -300px;
 }
 
 .about {
-    position: absolute;
     width: 483.63px;
     height: 200px;
-    left: 409.39px;
-    top: 666.62px;
+    margin-left: 409.39px;
+    margin-top: 80px;
     background: #1E4681;
     border-radius: 5px;
 
@@ -128,22 +117,23 @@ header img {
 .about p {
     width: 430.59px;
     height: 113px;
-    left: 435.42px;
-    top: 685.88px;
+    margin-left: 435.42px;
+    margin-top: -25px;
     font-weight: 400;
     font-size: 25px;
     line-height: 130%;
     color: #FFFFFF;
     margin-left: 20px;
     margin-top: 15px;
+    padding-top: 30px;
 
 }
 
 .about span {
     width: 280.5px;
     height: 45.64px;
-    left: 594px;
-    top: 821px;
+    margin-left: 594px;
+    margin-top: 821px;
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
@@ -152,17 +142,17 @@ header img {
     display: inline-block;
     margin-left: 125px;
     margin-top: 15px;
+    padding-top: 10px;
 }
 
 
 
 /*Ramila start*/
 .content h2 {
-    position: absolute;
     width: 365px;
     height: 93px;
-    left: 121px;
-    top: 1040px;
+    margin-left: 121px;
+    margin-top: 80px;
     font-weight: 700;
     font-size: 55px;
     line-height: 101.38%;
@@ -171,11 +161,10 @@ header img {
 }
 
 .content p {
-    position: absolute;
     width: 662px;
     height: 374px;
-    left: 121px;
-    top: 1151px;
+    margin-left: 121px;
+    margin-top: 45px;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
@@ -183,43 +172,38 @@ header img {
 }
 
 .content img {
-    position: absolute;
     width: 314px;
     height: 315px;
-    left: 973px;
-    top: 1175px;
+    margin-left: 973px;
+    margin-top: -300px;
     background: url(_1);
     z-index: 2;
 }
 
 .content .circle {
-    position: absolute;
     width: 366px;
     height: 59px;
-    left: 947px;
-    top: 1460px;
+    margin-left: 947px;
+    margin-top: -50px;
     background: #EFEFEF;
     z-index: 1;
     border-radius: 50%;
 }
 
 .text img {
-    position: absolute;
     width: 232px;
     height: 203px;
-    left: 161px;
-    top: 1612px;
-    z-index: 2;
+    margin-left: 161px;
+    margin-top: 50px;
 }
 
 
 
 .lesson h4 {
-    position: absolute;
     width: 150px;
     height: 39px;
-    left: 485px;
-    top: 1689px;
+    margin-left: 485px;
+    margin-top: -100px;
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
@@ -227,11 +211,9 @@ header img {
 }
 
 .lesson p {
-    position: absolute;
     width: 150px;
     height: 39px;
-    left: 485px;
-    top: 1729px;
+    margin-left: 485px;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
@@ -239,11 +221,10 @@ header img {
 }
 
 .hour h4 {
-    position: absolute;
     width: 150px;
     height: 39px;
-    left: 730px;
-    top: 1689px;
+    margin-left: 730px;
+    margin-top: -77px;
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
@@ -251,11 +232,9 @@ header img {
 }
 
 .hour p {
-    position: absolute;
     width: 150px;
     height: 39px;
-    left: 730px;
-    top: 1729px;
+    margin-left: 730px;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
@@ -263,11 +242,10 @@ header img {
 }
 
 .weak h4 {
-    position: absolute;
     width: 150px;
     height: 39px;
-    left: 973px;
-    top: 1689px;
+    margin-left: 973px;
+    margin-top: -77px;
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
@@ -275,11 +253,9 @@ header img {
 }
 
 .weak p {
-    position: absolute;
     width: 150px;
     height: 39px;
-    left: 973px;
-    top: 1729px;
+    margin-left: 973px;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
@@ -302,42 +278,36 @@ header img {
 .programcourse h1{
 width: 905px;
 height: 93px;
-left: 151px;
-top: 3259px;
+margin-left: 120px;
 font-weight: 700;
 font-size: 55px;
 line-height: 101.38%;
 color: #000000;
 } 
-.yellowBlock{
 
+.yellowBlock{
 display: flex;
 flex-direction: column;
 width: 399px;
 height: 328px;
-left: 84px;
-top: 3434px;
+margin-left: 100px;
+margin-bottom: 10px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 }
 
 .yellowBlock img{
-
 width: 399px;
 height: 160px;
-left: 84px;
-top: 3434px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 }
 
 .yellowBlock h4{
-
 width: 365px;
 height: 39px;
-left: 104px;
-top: 3605px;
+padding-left: 25px;
 font-weight: 700;
 font-size: 30px;
 line-height: 130%;
@@ -345,11 +315,9 @@ color: #000000;
 }
 
 .yellowBlock p{
- 
 width: 365px;
 height: 63px;
-left: 151px;
-top: 3676px;
+padding-left: 25px;
 font-weight: 400;
 font-size: 25px;
 line-height: 130%;
@@ -442,27 +410,24 @@ color: #000000;
     
     
     header img {
-        position: absolute;
         width: 64.87px;
         height: 38.23px;
-        left: 70.8px;
-        top: 22px;
+        margin-left: 70.8px;
+        margin-top: 22px;
     }
 
     .time .course img {
-        position: absolute;
         width: 12.74px;
         height: 12.16px;
-        left: 70.08px;
-        top: 116.4px;
+        margin-left: 70.08px;
+        margin-top: 35px;
     }
 
     .time .course p {
-        position: absolute;
         width: 75.29px;
         height: 18.53px;
-        left: 87.45px;
-        top: 118.14px;
+        margin-left: 87.45px;
+        margin-top: -17px;
         font-weight: 400;
         font-size: 12px;
         line-height: 115%;
@@ -470,19 +435,17 @@ color: #000000;
     }
 
     .time .clock img {
-        position: absolute;
         width: 12.74px;
         height: 12.74px;
-        left: 177.23px;
-        top: 115.83px;
+        margin-left: 177.23px;
+        margin-top: -25px;
     }
 
     .time .clock p {
-        position: absolute;
         width: 75.29px;
         height: 18.53px;
-        left: 195.76px;
-        top: 118.14px;
+        margin-left: 195.76px;
+        margin-top: -17px;
         font-weight: 400;
         font-size: 12px;
         line-height: 115%;
@@ -490,19 +453,17 @@ color: #000000;
     }
 
     .time .calendar img {
-        position: absolute;
         width: 11.58px;
         height: 12.74px;
-        left: 270.47px;
-        top: 115.83px;
+        margin-left: 270.47px;
+        margin-top: 0px;
     }
 
     .time .calendar p {
-        position: absolute;
         width: 75.29px;
         height: 18.53px;
-        left: 289.58px;
-        top: 118.14px;
+        margin-left: 289.58px;
+        margin-top: -17px;
         font-weight: 400;
         font-size: 12px;
         line-height: 115%;
@@ -510,11 +471,10 @@ color: #000000;
     }
 
     .movie h1 {
-        position: absolute;
         width: 363.72px;
         height: 110.04px;
-        left: 70.66px;
-        top: 144.2px;
+        margin-left: 50px;
+        margin-top: 5px;
         font-weight: 700;
         font-size: 46px;
         line-height: 101.38%;
@@ -522,11 +482,10 @@ color: #000000;
     }
 
     .movie p {
-        position: absolute;
         width: 264px;
         height: 36px;
-        left: 71px;
-        top: 257px;
+        margin-left: 50px;
+        margin-top: -5px;
         font-weight: 400;
         font-size: 12px;
         line-height: 150%;
@@ -534,19 +493,17 @@ color: #000000;
     }
 
     .movie img {
-        position: absolute;
         width: 176.07px;
         height: 206.18px;
-        left: 515.46px;
-        top: 138.99px;
+        margin-left: 515px;
+        margin-top: -160px;
     }
 
     .about {
-        position: absolute;
         width: 280.11px;
         height: 115.83px;
-        left: 237.1px;
-        top: 395.92px;
+        margin-left: 200px;
+        margin-top: -10px;
         background: #1E4681;
         border-radius: 2.89583px;
     }
@@ -554,8 +511,8 @@ color: #000000;
     .about p {
         width: 249.38px;
         height: 65.45px;
-        left: 252.18px;
-        top: 407.08px;
+        margin-left: 25px;
+        padding-top: -5px;
         font-weight: 400;
         font-size: 14px;
         line-height: 130%;
@@ -565,8 +522,8 @@ color: #000000;
     .about span {
         width: 162.46px;
         height: 26.43px;
-        left: 345.33px;
-        top: 481.12px;
+        margin-left: 34px;
+        padding-top: 10px;
         font-weight: 400;
         font-size: 12px;
         line-height: 130%;
@@ -579,11 +536,10 @@ color: #000000;
 
     /*Ramila start*/
     .content h2 {
-        position: absolute;
         width: 211.4px;
         height: 53.86px;
-        left: 70.08px;
-        top: 612.17px;
+        margin-left: 50px;
+        margin-top: 50px;
         font-weight: 700;
         font-size: 32px;
         line-height: 101.38%;
@@ -591,11 +547,10 @@ color: #000000;
     }
 
     .content p {
-        position: absolute;
         width: 383.41px;
         height: 216.61px;
-        left: 70.08px;
-        top: 676.46px;
+        margin-left: 50px;
+        margin-top: 6px;
         font-weight: 400;
         font-size: 14px;
         line-height: 150%;
@@ -603,43 +558,37 @@ color: #000000;
     }
 
     .content img {
-        position: absolute;
         width: 181.86px;
         height: 182.44px;
-        left: 563.53px;
-        top: 690.36px;
+        margin-left: 550px;
+        margin-top: -200px;
         background: url(_1.png);
-        z-index: 2;
+
     }
 
     .content .circle {
-        position: absolute;
         width: 211.98px;
         height: 34.17px;
-        left: 548.47px;
-        top: 855.42px;
+        margin-left: 550px;
+        margin-top: -30px;
         background: #EFEFEF;
-        z-index: 1;
         border-radius: 50%;
     }
 
     .text img {
-        position: absolute;
         width: 134.37px;
         height: 117.57px;
-        left: 70.08px;
-        top: 947.51px;
+        margin-left: 50px;
+        margin-top: 9px;
         background: url(photo);
-        z-index: 2;
     }
 
 
     .lesson h4 {
-        position: absolute;
         width: 86.88px;
         height: 22.59px;
-        left: 280.9px;
-        top: 988.05px;
+        margin-left: 280px;
+        margin-top: -100px;
         font-weight: 700;
         font-size: 15px;
         line-height: 130%;
@@ -647,11 +596,10 @@ color: #000000;
     }
 
     .lesson p {
-        position: absolute;
         width: 86.88px;
         height: 22.59px;
-        left: 280.9px;
-        top: 1011.22px;
+        margin-left: 280px;
+        margin-top: 3px;
         font-weight: 400;
         font-size: 11px;
         line-height: 130%;
@@ -659,11 +607,10 @@ color: #000000;
     }
 
     .hour h4 {
-        position: absolute;
         width: 86.88px;
         height: 22.59px;
-        left: 422.79px;
-        top: 988.05px;
+        margin-left: 422px;
+        margin-top: -50px;
         font-weight: 700;
         font-size: 15px;
         line-height: 130%;
@@ -671,11 +618,10 @@ color: #000000;
     }
 
     .hour p {
-        position: absolute;
         width: 108px;
         height: 23px;
-        left: 423px;
-        top: 1011px;
+        margin-left: 422px;
+        margin-top: 3px;
         font-weight: 400;
         font-size: 11px;
         line-height: 130%;
@@ -683,11 +629,10 @@ color: #000000;
     }
 
     .weak h4 {
-        position: absolute;
         width: 86.88px;
         height: 22.59px;
-        left: 563.53px;
-        top: 988.05px;
+        margin-left: 563px;
+        margin-top: -50px;
         font-weight: 700;
         font-size: 15px;
         line-height: 130%;
@@ -695,11 +640,10 @@ color: #000000;
     }
 
     .weak p {
-        position: absolute;
         width: 86.88px;
         height: 22.59px;
-        left: 563.53px;
-        top: 1011.22px;
+        margin-left: 563px;
+        margin-top: 3px;
         font-weight: 400;
         font-size: 11px;
         line-height: 130%;
@@ -800,27 +744,24 @@ color: #000000;
 
 @media(min-width: 320px) and (max-width:991px) {
     header img {
-        position: absolute;
         width: 52.19px;
         height: 30.75px;
-        left: 35px;
-        top: 36px;
+        margin-left: 35px;
+        margin-top: 30px;
     }
 
     .time .course img {
-        position: absolute;
         width: 10.25px;
         height: 9.79px;
-        left: 35px;
-        top: 111.95px;
+        margin-left: 35px;
+        margin-top: 50px;
     }
 
     .time .course p {
-        position: absolute;
         width: 60.58px;
         height: 14.91px;
-        left: 48.98px;
-        top: 111.35px;
+        margin-left: 48.98px;
+        margin-top: -15px;
         font-weight: 400;
         font-size: 10px;
         line-height: 115%;
@@ -829,19 +770,17 @@ color: #000000;
     }
 
     .time .clock img {
-        position: absolute;
         width: 10.25px;
         height: 10.25px;
-        left: 121.21px;
-        top: 111.49px;
+        margin-left: 121.21px;
+        margin-top: -100px;
     }
 
     .time .clock p {
-        position: absolute;
         width: 60.58px;
         height: 14.91px;
-        left: 136.12px;
-        top: 111.35px;
+        margin-left: 136.12px;
+        margin-top: -15px;
         font-weight: 400;
         font-size: 10px;
         line-height: 115%;
@@ -849,19 +788,17 @@ color: #000000;
     }
 
     .time .calendar img {
-        position: absolute;
         width: 9.32px;
         height: 10.25px;
-        left: 196.23px;
-        top: 111.49px;
+        margin-left: 196.23px;
+        margin-top: -100px;
     }
 
     .time .calendar p {
-        position: absolute;
         width: 60.58px;
         height: 14.91px;
-        left: 211.6px;
-        top: 111.35px;
+        margin-left: 211.6px;
+        margin-top: -15px;
         font-weight: 400;
         font-size: 10px;
         line-height: 115%;
@@ -869,11 +806,9 @@ color: #000000;
     }
 
     .movie h1 {
-        position: absolute;
         width: 292.63px;
         height: 88.53px;
-        left: 35.47px;
-        top: 134.32px;
+        margin-left: 35px;
         font-weight: 700;
         font-size: 37px;
         line-height: 101.38%;
@@ -881,11 +816,10 @@ color: #000000;
     }
 
     .movie p {
-        position: absolute;
         width: 212.4px;
         height: 28.96px;
-        left: 35.74px;
-        top: 225.07px;
+        margin-left: 35px;
+        margin-top: 0px;
         font-weight: 400;
         font-size: 10px;
         line-height: 150%;
@@ -893,19 +827,17 @@ color: #000000;
     }
 
     .movie img {
-        position: absolute;
         width: 141.66px;
         height: 165.89px;
-        left: 201px;
-        top: 254px;
+        margin-left: 200px;
+        margin-top: -10px;
     }
 
     .about {
-        position: absolute;
         width: 225.36px;
         height: 93.19px;
-        left: 37.98px;
-        top: 467.75px;
+        margin-left: 37px;
+        margin-top: 10px;
         background: #1E4681;
         border-radius: 2.32986px;
     }
@@ -913,8 +845,8 @@ color: #000000;
     .about p {
         width: 200.64px;
         height: 52.65px;
-        left: 50.11px;
-        top: 476.72px;
+        margin-left: 20px;
+        padding-top: 10px;
         font-weight: 400;
         font-size: 11px;
         line-height: 130%;
@@ -924,16 +856,14 @@ color: #000000;
     .about span {
         width: 130.7px;
         height: 21.27px;
-        left: 125.05px;
-        top: 536.29px;
         font-weight: 400;
         font-size: 10px;
         line-height: 130%;
         text-align: right;
         color: #FFFFFF;
         display: inline-block;
-        margin-left: 30px;
-        margin-top: 5px;
+        margin-left: 80px;
+        margin-top: 8px;
 
     }
 
@@ -941,11 +871,10 @@ color: #000000;
 
     /*Ramila start*/
     .content h2 {
-        position: absolute;
         width: 170.08px;
         height: 43.34px;
-        left: 36px;
-        top: 636px;
+        margin-left: 36px;
+        margin-top: 36px;
         font-weight: 700;
         font-size: 26px;
         line-height: 101.38%;
@@ -953,11 +882,10 @@ color: #000000;
     }
 
     .content p {
-        position: absolute;
         width: 308.47px;
         height: 174.27px;
-        left: 36px;
-        top: 687.72px;
+        margin-left: 36px;
+        margin-top: 10px;
         font-weight: 400;
         font-size: 12px;
         line-height: 150%;
@@ -965,20 +893,17 @@ color: #000000;
     }
 
     .content img {
-        position: absolute;
         width: 170.55px;
         height: 160.29px;
-        left: 101px;
-        top: 918px;
-        z-index: 2;
+        margin-left: 100px;
+        margin-top: 25px;
     }
 
     .content .circle {
-        position: absolute;
         width: 170.55px;
         height: 27.49px;
-        left: 101px;
-        top: 1050.8px;
+        margin-left: 100px;
+        margin-top: -15px;
         background: #EFEFEF;
         z-index: 1;
         border-radius: 50%;
@@ -987,14 +912,12 @@ color: #000000;
     .text img {
         display: none;
     }
-
     
     .lesson h4 {
-        position: absolute;
         width: 69.9px;
         height: 18.17px;
-        left: 35px;
-        top: 1124px;
+        margin-left: 35px;
+        margin-top: 50px;
         font-weight: 700;
         font-size: 12px;
         line-height: 130%;
@@ -1002,11 +925,10 @@ color: #000000;
     }
 
     .lesson p {
-        position: absolute;
         width: 86px;
         height: 18px;
-        left: 35px;
-        top: 1143px;
+        margin-left: 35px;
+        margin-top: 2px;
         font-weight: 400;
         font-size: 10px;
         line-height: 130%;
@@ -1014,11 +936,10 @@ color: #000000;
     }
 
     .hour h4 {
-        position: absolute;
         width: 69.9px;
         height: 18.17px;
-        left: 154.16px;
-        top: 1124px;
+        margin-left: 154.16px;
+        margin-top: -40px;
         font-weight: 700;
         font-size: 12px;
         line-height: 130%;
@@ -1026,11 +947,10 @@ color: #000000;
     }
 
     .hour p {
-        position: absolute;
         width: 86.89px;
         height: 18.5px;
-        left: 154.33px;
-        top: 1142.46px;
+        margin-left: 154.16px;
+        margin-top: 2px;
         font-weight: 400;
         font-size: 10px;
         line-height: 130%;
@@ -1038,11 +958,10 @@ color: #000000;
     }
 
     .weak h4 {
-        position: absolute;
         width: 69.9px;
         height: 18.17px;
-        left: 35px;
-        top: 1195px;
+        margin-left: 35px;
+        margin-top: 45px;
         font-weight: 700;
         font-size: 12px;
         line-height: 130%;
@@ -1050,11 +969,10 @@ color: #000000;
     }
 
     .weak p {
-        position: absolute;
         width: 76px;
         height: 18px;
-        left: 35px;
-        top: 1214px;
+        margin-left: 35px;
+        margin-top: 2px;
         font-weight: 400;
         font-size: 10px;
         line-height: 130%;
