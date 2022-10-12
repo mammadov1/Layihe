@@ -723,6 +723,95 @@ color: #000000;
     width: 32px;
     left: 371px;
 }
+.footer-top {
+    width: 100%;
+    height: 54.1vw;
+    background: #9DC9C8;
+}
+.footerTopHead {
+    font-weight: bold;
+    font-family: Roboto Slab;
+    font-size: 3.8vw;
+    font-style: normal;
+    height: 4.58vw;
+    width: 68.5vw;
+    line-height: 101.38%;
+    color: #000000;
+    margin-bottom: 3.75vw;
+}
+.textCHead {
+    font-family: Roboto;
+    font-size: 1.73vw;
+    font-weight: normal;
+    font-style: normal;
+    height: 2.22vw;
+    width: 11.08vw;
+    color: #000000;
+    line-height: 101.38%;
+}
+.textCBody {
+    height: 12.569vw;
+    width: 33.40vw;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 5.55vw;
+    color: #000000;
+    line-height: 101.38%;
+}
+.text1Head {
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 1.73vw;
+    font-weight: normal;
+    height: 2.22vw;
+    width: 20.41vw;
+    color: #000000;
+    line-height: 101.38%;
+}
+.text1Body {
+   color: #000000;
+   line-height: 101.38%;
+   height: 4.86vw;
+   width: 20.41vw;
+   font-weight: normal;
+   font-family: Roboto;
+   font-size: 1.25vw;
+   font-style: normal;
+}
+.text2Head {
+    font-weight: normal;
+    font-family: Roboto;
+    font-size: 1.73vw;
+    font-style: normal;
+    color: #000000;
+    line-height: 101.38%;
+    height: 2.22vw;
+    width: 22.36vw;
+}
+.text2Body {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 1.25vw;
+    font-weight: normal;
+    height: 4.86vw;
+    width: 20.41vw;
+    color: #000000;
+    line-height: 101.38%;
+}
+.texts {
+    display: flex;
+}
+.footerTopContent {
+    margin-left: 8.47vw;
+}
+.text1 {
+    margin-right: 4.86vw;
+}
+.footer-top {
+    display: flex;
+    align-items: center;
+}
 
 
 /*Naila Aliyeva end*/
@@ -2137,6 +2226,101 @@ color: #000000;
     body,html{
         overflow-x: hidden;
     }
+    .footer-top {
+        background: #9DC9C8;
+        height: 92.248vw;
+        width: 100%;
+        margin-top: 0vw;
+    }
+    .footerTopHead {
+        width: 56.852vw;
+        height: 15.989vw;
+        line-height: 101.38%;
+        color: #000000;
+        margin-bottom: 3.75vw;
+        display: flex;
+        flex-wrap: wrap;
+        font-style: normal;
+        font-size: 6.598vw;
+        font-weight: bold;
+        font-family: Roboto Slab;
+    }
+    .textCHead {
+        width: 11.08vw;
+        height: 2.22vw;
+        color: #000000;
+        line-height: 101.38%;
+        margin-bottom: 3.29vw;
+        font-family: Roboto;
+        font-size: 3.04vw;
+        font-weight: normal;
+        font-style: normal;
+    }
+    .textCBody {
+        font-family: Roboto;
+        font-size: 9.39vw;
+        font-style: normal;
+        font-weight: normal;
+        height: 12.569vw;
+        width: 56.852vw;
+        color: #000000;
+        line-height: 101.38%;
+    }
+    .text1Head {
+        height: 3.78vw;
+        width: 34.77vw;
+        color: #000000;
+        line-height: 101.38%;
+        font-size: 3.04vw;
+        font-family: Roboto;
+        font-weight: normal;
+        font-style: normal;
+    }
+    .text1Body {
+        font-family: Roboto;
+        font-size: 2.53vw;
+        font-weight: normal;
+        font-style: normal;
+        height: 11.92vw;
+        width: 35.02vw;
+        color: #000000;
+        line-height: 101.38%;
+    }
+    .text2Head {
+        height: 3.55vw;
+        width: 38.32vw;
+        line-height: 101.38%;
+        color: #000000;
+        font-family: Roboto;
+        font-size: 3.04vw;
+        font-weight: normal;
+        font-style: normal;
+    }
+    .text2Body {
+        font-family: Roboto;
+        font-size: 2.53vw;
+        font-weight: normal;
+        font-style: normal;
+        width: 35.53vw;
+        height: 9.644vw;
+        margin-top: 1.142vw;
+        color: #000000;
+        line-height: 101.38%;
+    }
+    .texts {
+        display: flex;
+    }
+    .footerTopContent {
+        margin-left: 8.47vw;
+    }
+    .text1 {
+        margin-right: 4.86vw;
+    }
+    .footer-top {
+        display: flex;
+        align-items: center;
+    }
+
     /*Naila Aliyeva end*/
 
     
