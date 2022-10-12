@@ -8,24 +8,22 @@
 }
 
 .container {
-
-    position: relative;
-    /*width: 1440px;*/
-    height: 6575px;
+    width: 1440px;
+    height: 2500px;
 }
 
 header img {
     width: 112px;
     height: 66px;
     margin-left: 121px;
-    margin-top: 21px;
+    margin-top: 60px;
 }
 
 .time .course img {
     width: 22px;
     height: 21px;
     margin-left: 121px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .time .course p {
@@ -79,7 +77,7 @@ header img {
     width: 628px;
     height: 190px;
     margin-left: 122px;
-    margin-top: 15px;
+    margin-top: 60px;
     font-weight: 700;
     font-size: 80px;
     line-height: 101.38%;
@@ -90,7 +88,7 @@ header img {
     width: 414px;
     height: 62px;
     margin-left: 122px;
-    margin-top: 2px;
+    margin-top: 15px;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
@@ -108,7 +106,7 @@ header img {
     width: 483.63px;
     height: 200px;
     margin-left: 409.39px;
-    margin-top: 80px;
+    margin-top: 150px;
     background: #1E4681;
     border-radius: 5px;
 
@@ -152,7 +150,7 @@ header img {
     width: 365px;
     height: 93px;
     margin-left: 121px;
-    margin-top: 80px;
+    margin-top: 300px;
     font-weight: 700;
     font-size: 55px;
     line-height: 101.38%;
@@ -164,7 +162,7 @@ header img {
     width: 662px;
     height: 374px;
     margin-left: 121px;
-    margin-top: 45px;
+    margin-top: 70px;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
@@ -194,7 +192,7 @@ header img {
     width: 232px;
     height: 203px;
     margin-left: 161px;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 
@@ -268,18 +266,20 @@ header img {
 
 
 /*Ferid start*/
-
 .course-about, .course-learn {
     margin-top: 180px;
     margin-left: 120px;
     margin-right: 345px;
 }
 
+
 .course-about h2, .course-learn h2 {
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
+   
+    
 }
 
 .course-formats {
@@ -324,6 +324,9 @@ header img {
 
 
 /*Ramila start*/
+.programcourse{
+    height: 1490px;
+}
 .programcourse h1{
 width: 905px;
 height: 93px;
@@ -450,7 +453,7 @@ font-size: 25px;
 line-height: 130%;
 color: #000000;
 }
-.foorBlock{
+.fourBlock{
 display: flex;
 flex-direction: column;
 width: 399px;
@@ -462,14 +465,14 @@ box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 }
             
-.foorBlock img{
+.fourBlock img{
 width: 399px;
 height: 160px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 }
             
-.foorBlock h4{
+.fourBlock h4{
 width: 365px;
 height: 39px;
 padding-left: 25px;
@@ -479,7 +482,7 @@ line-height: 130%;
 color: #000000;
 }
             
-.foorBlock p{
+.fourBlock p{
 width: 365px;
 height: 63px;
 padding-left: 25px;
@@ -498,6 +501,7 @@ margin-left: 530px;
 margin-top: -328px;
 background: #FFFFFF;
 border-radius: 30px;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 }
                 
 .fiveBlock img{
@@ -725,7 +729,10 @@ color: #000000;
 
 @media (min-width:991px) and (max-width:1279px) {
     
-    
+    .container {
+        width: 800;
+        height: 1500;
+    }
     
     header img {
         width: 64.87px;
@@ -979,6 +986,329 @@ color: #000000;
 
 
     /*Ramila start*/
+     
+    .programcourse{
+        height: 850px;
+    }
+    .programcourse h1{
+    width: 525px;
+    height: 54px;
+    margin-left: 71px;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+    color: #000000;
+    } 
+    
+    .oneBlock{
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 190px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+    
+    .oneBlock img{
+    width: 231px;
+    height: 93px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+    
+    .oneBlock h4{
+    width: 211px;
+    height: 23px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    }
+    
+    .oneBlock p{
+    width: 211px;
+    height: 36px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+    .twoBlock{
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 190px;
+    margin-left: 302px;
+    margin-top: -188px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+     }
+        
+    .twoBlock img{
+    width: 231px;
+    height: 93px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+        
+    .twoBlock h4{
+    width: 211px;
+    height: 23px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    }
+        
+    .twoBlock p{
+    width: 211px;
+    height: 36px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+    
+    .threeBlock{
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 190px;
+    margin-left: 554px;
+    margin-top: -188px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+            
+    .threeBlock img{
+    width: 231px;
+    height: 93px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+            
+    .threeBlock h4{
+    width: 211px;
+    height: 23px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    }
+            
+    .threeBlock p{
+    width: 211px;
+    height: 36px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+    .fourBlock{
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 190px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+                
+    .fourBlock img{
+    width: 231px;
+    height: 93px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                
+    .fourBlock h4{
+    width: 211px;
+    height: 23px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    }
+                
+    .fourBlock p{
+    width: 211px;
+    height: 36px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+    
+    .fiveBlock{
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 190px;
+    margin-left: 302px;
+    margin-top: -188px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    }
+                    
+    .fiveBlock img{
+    width: 231px;
+    height: 93px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                    
+    .fiveBlock h4{
+    width: 211px;
+    height: 23px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    }
+                    
+    .fiveBlock p{
+    width: 211px;
+    height: 36px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+    .sixBlock{
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 190px;
+    margin-left: 554px;
+    margin-top: -188px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+                        
+    .sixBlock img{
+    width: 231px;
+    height: 93px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                        
+    .sixBlock h4{
+    width: 211px;
+    height: 23px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    }
+                        
+    .sixBlock p{
+    width: 211px;
+    height: 36px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+    
+    .sevenBlock{
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 190px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+                            
+    .sevenBlock img{
+    width: 231px;
+    height: 93px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                                                    
+    .sevenBlock h4{
+    width: 211px;
+    height: 23px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    }
+                            
+    .sevenBlock p{
+    width: 211px;
+    height: 36px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+    .eightBlock{
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 190px;
+    margin-left: 302px;
+    margin-top: -488px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+                                
+    .eightBlock img{
+    width: 231px;
+    height: 93px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                                
+    .eightBlock h4{
+    width: 211px;
+    height: 41px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    }
+                                
+    .eightBlock p{
+    width: 211px;
+    height: 36px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
 
 
     /*Ramila end*/
@@ -1312,7 +1642,329 @@ color: #000000;
 
     /*Ferid end*/
 
-
+    .programcourse{
+        height: 1800px;
+       
+    }
+    .programcourse h1{
+    width: 422px;
+    height: 44px;
+    margin-left: 34px;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 101.38%;
+    color: #000000;
+    } 
+    
+    .oneBlock{
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+    height: 153px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+    
+    .oneBlock img{
+    width: 186px;
+    height: 75px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+    
+    .oneBlock h4{
+    width: 171px;
+    height: 19px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+    
+    .oneBlock p{
+    width: 171px;
+    height: 30px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+    }
+    .twoBlock{
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+    height: 153px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+     }
+        
+    .twoBlock img{
+    width: 186px;
+    height: 75px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+        
+    .twoBlock h4{
+    width: 171px;
+    height: 19px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+        
+    .twoBlock p{
+    width: 171px;
+    height: 30px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+    }
+    
+    .threeBlock{
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+    height: 153px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+            
+    .threeBlock img{
+    width: 186px;
+    height: 75px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+            
+    .threeBlock h4{
+    width: 171px;
+    height: 19px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+            
+    .threeBlock p{
+    width: 171px;
+    height: 30px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+    }
+    .fourBlock{
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+    height: 153px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+                
+    .fourBlock img{
+    width: 186px;
+    height: 75px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                
+    .fourBlock h4{
+    width: 171px;
+    height: 19px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+                
+    .fourBlock p{
+    width: 171px;
+    height: 30px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+    }
+    
+    .fiveBlock{
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+    height: 153px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    }
+                    
+    .fiveBlock img{
+    width: 186px;
+    height: 75px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                    
+    .fiveBlock h4{
+    width: 171px;
+    height: 19px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+                    
+    .fiveBlock p{
+    width: 171px;
+    height: 30px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+    }
+    .sixBlock{
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+    height: 153px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+                        
+    .sixBlock img{
+    width: 186px;
+    height: 75px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                        
+    .sixBlock h4{
+    width: 171px;
+    height: 19px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+                        
+    .sixBlock p{
+    width: 171px;
+    height: 30px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+    }
+    
+    .sevenBlock{
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+    height: 153px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+                            
+    .sevenBlock img{
+    width: 186px;
+    height: 75px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                                                    
+    .sevenBlock h4{
+    width: 171px;
+    height: 19px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+                            
+    .sevenBlock p{
+    width: 171px;
+    height: 30px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+    }
+    .eightBlock{
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+    height: 153px;
+    margin-left: 70px;
+    margin-top:-250px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    }
+                                
+    .eightBlock img{
+    width: 186px;
+    height: 75px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    }
+                                
+    .eightBlock h4{
+    width: 171px;
+    height: 23px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    }
+                                
+    .eightBlock p{
+    width: 171px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+    }
 
     /*Naila Aliyeva start*/
     .card{
