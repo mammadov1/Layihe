@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
 
+/*Mecid start*/
 * {
     margin: 0;
     padding: 0;
@@ -89,6 +90,18 @@ header img {
     height: 356px;
     margin-left: 800px;
     margin-top: -300px;
+    z-index: 2;
+}
+
+.movie  .circle{
+    width: 274px;
+    height:62px;
+    margin-left: 840px;
+    margin-top:-35px ;
+    background: #EFEFEF;
+    border-radius: 50%;
+    z-index: 1;
+
 }
 .about {
     width: 483.63px;
@@ -120,6 +133,7 @@ header img {
     margin-left: 125px;
     padding-top: 40px;
 }
+/*Mecid end*/
 
 /*Ramila start*/
 .content{
@@ -133,7 +147,6 @@ header img {
     line-height: 101.38%;
     color: #000000;
 }
-
 .content p {
     width: 662px;
     height: 374px;
@@ -164,7 +177,7 @@ header img {
 }
 .word{
  margin-left: 485px;
- margin-top: -50px;
+ margin-top: -60px;
  display: flex;
  flex-direction: row;
 }
@@ -286,7 +299,6 @@ font-size: 55px;
 line-height: 101.38%;
 color: #000000;
 } 
-
 .oneBlock{
 display: flex;
 flex-direction: column;
@@ -297,14 +309,12 @@ background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 }
-
 .oneBlock img{
 width: 399px;
 height: 160px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 }
-
 .oneBlock h4{
 width: 365px;
 height: 39px;
@@ -314,7 +324,6 @@ font-size: 30px;
 line-height: 130%;
 color: #000000;
 }
-
 .oneBlock p{
 width: 365px;
 height: 63px;
@@ -334,15 +343,13 @@ margin-top: -328px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
-    }
-    
+}   
 .twoBlock img{
 width: 399px;
 height: 160px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
-}
-    
+}    
 .twoBlock h4{
 width: 365px;
 height: 39px;
@@ -351,8 +358,7 @@ font-weight: 700;
 font-size: 30px;
 line-height: 130%;
 color: #000000;
-}
-    
+}   
 .twoBlock p{
 width: 365px;
 height: 63px;
@@ -362,7 +368,6 @@ font-size: 25px;
 line-height: 130%;
 color: #000000;
 }
-
 .threeBlock{
 display: flex;
 flex-direction: column;
@@ -373,15 +378,13 @@ margin-top: -328px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
-}
-        
+}        
 .threeBlock img{
- width: 399px;
+width: 399px;
 height: 160px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
-}
-        
+}       
 .threeBlock h4{
 width: 365px;
 height: 39px;
@@ -390,8 +393,7 @@ font-weight: 700;
 font-size: 30px;
 line-height: 130%;
 color: #000000;
-}
-        
+}       
 .threeBlock p{
 width: 365px;
 height: 63px;
@@ -417,8 +419,7 @@ width: 399px;
 height: 160px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
-}
-            
+}           
 .fourBlock h4{
 width: 365px;
 height: 39px;
@@ -427,8 +428,7 @@ font-weight: 700;
 font-size: 30px;
 line-height: 130%;
 color: #000000;
-}
-            
+}           
 .fourBlock p{
 width: 365px;
 height: 63px;
@@ -438,7 +438,6 @@ font-size: 25px;
 line-height: 130%;
 color: #000000;
 }
-
 .fiveBlock{
 display: flex;
 flex-direction: column;
@@ -449,15 +448,13 @@ margin-top: -328px;
 background: #FFFFFF;
 border-radius: 30px;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-}
-                
+}               
 .fiveBlock img{
 width: 399px;
 height: 160px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
-}
-                
+}               
 .fiveBlock h4{
 width: 365px;
 height: 39px;
@@ -466,8 +463,7 @@ font-weight: 700;
 font-size: 30px;
 line-height: 130%;
 color: #000000;
-}
-                
+}               
 .fiveBlock p{
 width: 365px;
 height: 63px;
@@ -487,15 +483,13 @@ margin-top: -328px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
-}
-                    
+}                   
 .sixBlock img{
 width: 399px;
 height: 160px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
-}
-                    
+}                   
 .sixBlock h4{
 width: 365px;
 height: 39px;
@@ -504,8 +498,7 @@ font-weight: 700;
 font-size: 30px;
 line-height: 130%;
 color: #000000;
-}
-                    
+}                   
 .sixBlock p{
 width: 365px;
 height: 63px;
@@ -515,7 +508,6 @@ font-size: 25px;
 line-height: 130%;
 color: #000000;
 }
-
 .sevenBlock{
 display: flex;
 flex-direction: column;
@@ -526,15 +518,13 @@ margin-bottom: 300px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
-}
-                        
+}                       
 .sevenBlock img{
 width: 399px;
 height: 160px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
-}
-                                                
+}                                               
 .sevenBlock h4{
 width: 365px;
 height: 39px;
@@ -543,8 +533,7 @@ font-weight: 700;
 font-size: 30px;
 line-height: 130%;
 color: #000000;
-}
-                        
+}                       
 .sevenBlock p{
 width: 365px;
 height: 63px;
@@ -564,15 +553,13 @@ margin-top: -628px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
-}
-                            
+}                           
 .eightBlock img{
 width: 399px;
 height: 160px;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
-}
-                            
+}                           
 .eightBlock h4{
 width: 365px;
 height: 39px;
@@ -581,8 +568,7 @@ font-weight: 700;
 font-size: 30px;
 line-height: 130%;
 color: #000000;
-}
-                            
+}                           
 .eightBlock p{
 width: 365px;
 height: 63px;
@@ -594,9 +580,6 @@ line-height: 130%;
 color: #000000;
 }
 /*Ramila end*/
-
-
-
 
 /*Naila Aliyeva start*/
 .card {
@@ -761,18 +744,16 @@ color: #000000;
 
 /*Naila Aliyeva end*/
 
-
+/*Mecid start*/
 ul li {
     list-style: none;
 }
-
 .Footer {
     width: 100%;
     height: 390px;
     margin-left: -1px;
     background: #000000;
 }
-
 .Footer .Left img {
     width: 115px;
     height: 68px;
@@ -780,22 +761,18 @@ ul li {
     margin-top: 30px;
     display: inline-block;
 }
-
 .Footer .Left ul li img {
     width: 33px;
     height: 33px;
     margin-left: 30px;
 }
-
 .Footer .Left ul li {
     display: inline-block;
     margin-top: 10px;
 }
-
 .Footer .Left ul li:first-child {
     margin-left: 90px;
 }
-
 .Footer .Left p {
     width: 230px;
     height: 40px;
@@ -808,26 +785,21 @@ ul li {
     line-height: 101.38%;
     color: #FFFFFF;
 }
-
 .Footer .Right {
     margin-top: -345px;
 }
-
 .Footer .Right ul li {
     margin-left: 900px;
     margin-top: 20px;
 }
-
 .Footer .Right ul li #one {
     width: 27px;
     height: 27px;
 }
-
 .Footer .Right ul li #two {
     width: 27px;
     height: 18px;
 }
-
 .Footer .Right p {
     display: inline-block;
     margin-left: 30px;
@@ -840,9 +812,11 @@ ul li {
     line-height: 101.38%;
     color: #FFFFFF;
 }
+/*Mecid end*/
 
 @media (min-width:991px) and (max-width:1279px) {
     
+    /*Mecid start*/
     .container {
         padding-left: 70px;
         padding-right: 70px;
@@ -886,13 +860,11 @@ ul li {
         line-height: 115%;
         color: #000000;
     }
-
     .time .calendar img {
         width: 11.58px;
         height: 12.74px;
         margin-left: 40px;
     }
-
     .time .calendar p {
         width: 75.29px;
         height: 18.53px;
@@ -927,12 +899,22 @@ ul li {
         height: 206.18px;
         margin-left: 515px;
         margin-top: -160px;
+        z-index: 2;
+    }
+    .movie  .circle{
+        width: 158px;
+        height: 25px;
+        margin-left: 533px;
+        margin-top: -18px ;
+        background: #EFEFEF;
+        border-radius: 50%;
+        z-index: 1;
     }
     .about {
         width: 280.11px;
         height: 115.83px;
         margin-left: 200px;
-        margin-top: -10px;
+        margin-top: 30px;
         background: #1E4681;
         border-radius: 2.89583px;
     }
@@ -946,7 +928,6 @@ ul li {
         line-height: 130%;
         color: #FFFFFF;
     }
-
     .about span {
         width: 162.46px;
         height: 26.43px;
@@ -961,6 +942,7 @@ ul li {
         margin-left: 60px;
         margin-top: 10px;
     }
+    /*Mecid end*/
 
     /*Ramila start*/
     .content{
@@ -996,17 +978,16 @@ ul li {
         background: #EFEFEF;
         border-radius: 50%;
     }
-
     .content .text img {
         width: 134.37px;
         height: 117.57px;
         margin-top: 9px;
     }
-.word{
+     .word{
     display: flex;
     flex-direction: row;
     margin-left: 320px;
-}
+     }
     .lesson h4 {
         width: 86.88px;
         height: 22.59px;
@@ -1034,7 +1015,6 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     .hour p {
         width: 108px;
         height: 23px;
@@ -1044,7 +1024,6 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     .weak h4 {
         width: 86.88px;
         height: 22.59px;
@@ -1054,7 +1033,6 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     .weak p {
         width: 86.88px;
         height: 22.59px;
@@ -1064,19 +1042,14 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     /*Ramila end*/
 
-
     /*Ferid start*/
-
-
 
     /*Ferid end*/
 
 
-    /*Ramila start*/
-     
+    /*Ramila start*/     
     .programcourse{
     margin-top: 100px;
     padding-left: 70px;
@@ -1093,7 +1066,6 @@ ul li {
     line-height: 101.38%;
     color: #000000;
     } 
-    
     .oneBlock{
     display: flex;
     flex-direction: column;
@@ -1105,14 +1077,12 @@ ul li {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     }
-    
     .oneBlock img{
     width: 231px;
     height: 93px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     }
-    
     .oneBlock h4{
     width: 211px;
     height: 23px;
@@ -1122,7 +1092,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-    
     .oneBlock p{
     width: 211px;
     height: 36px;
@@ -1142,15 +1111,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-     }
-        
+     }   
     .twoBlock img{
     width: 231px;
     height: 93px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-        
+    }  
     .twoBlock h4{
     width: 211px;
     height: 23px;
@@ -1159,8 +1126,7 @@ ul li {
     font-size: 17px;
     line-height: 130%;
     color: #000000;
-    }
-        
+    }   
     .twoBlock p{
     width: 211px;
     height: 36px;
@@ -1170,7 +1136,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-    
     .threeBlock{
     display: flex;
     flex-direction: column;
@@ -1181,15 +1146,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-            
+    }       
     .threeBlock img{
     width: 231px;
     height: 93px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-            
+    }       
     .threeBlock h4{
     width: 211px;
     height: 23px;
@@ -1198,8 +1161,7 @@ ul li {
     font-size: 17px;
     line-height: 130%;
     color: #000000;
-    }
-            
+    }       
     .threeBlock p{
     width: 211px;
     height: 36px;
@@ -1219,15 +1181,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-                
+    }           
     .fourBlock img{
     width: 231px;
     height: 93px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                
+    }           
     .fourBlock h4{
     width: 211px;
     height: 23px;
@@ -1236,8 +1196,7 @@ ul li {
     font-size: 17px;
     line-height: 130%;
     color: #000000;
-    }
-                
+    }           
     .fourBlock p{
     width: 211px;
     height: 36px;
@@ -1247,7 +1206,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-    
     .fiveBlock{
     display: flex;
     flex-direction: column;
@@ -1258,15 +1216,13 @@ ul li {
     background: #FFFFFF;
     border-radius: 30px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    }
-                    
+    }               
     .fiveBlock img{
     width: 231px;
     height: 93px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                    
+    }               
     .fiveBlock h4{
     width: 211px;
     height: 23px;
@@ -1275,8 +1231,7 @@ ul li {
     font-size: 17px;
     line-height: 130%;
     color: #000000;
-    }
-                    
+    }               
     .fiveBlock p{
     width: 211px;
     height: 36px;
@@ -1296,15 +1251,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-                        
+    }                   
     .sixBlock img{
     width: 231px;
     height: 93px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                        
+    }                   
     .sixBlock h4{
     width: 211px;
     height: 23px;
@@ -1313,8 +1266,7 @@ ul li {
     font-size: 17px;
     line-height: 130%;
     color: #000000;
-    }
-                        
+    }                   
     .sixBlock p{
     width: 211px;
     height: 36px;
@@ -1324,7 +1276,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-    
     .sevenBlock{
     display: flex;
     flex-direction: column;
@@ -1335,15 +1286,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-                            
+    }                       
     .sevenBlock img{
     width: 231px;
     height: 93px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                                                    
+    }                                               
     .sevenBlock h4{
     width: 211px;
     height: 23px;
@@ -1352,8 +1301,7 @@ ul li {
     font-size: 17px;
     line-height: 130%;
     color: #000000;
-    }
-                            
+    }                       
     .sevenBlock p{
     width: 211px;
     height: 36px;
@@ -1373,15 +1321,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-                                
+    }                            
     .eightBlock img{
     width: 231px;
     height: 93px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                                
+    }                           
     .eightBlock h4{
     width: 211px;
     height: 41px;
@@ -1390,8 +1336,7 @@ ul li {
     font-size: 17px;
     line-height: 130%;
     color: #000000;
-    }
-                                
+    }                           
     .eightBlock p{
     width: 211px;
     height: 36px;
@@ -1402,8 +1347,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-
-
     /*Ramila end*/
 
     /*Naila Aliyeva start*/
@@ -1572,14 +1515,13 @@ ul li {
         display: flex;
         align-items: center;
     }
-    
- 
     /*Naila Aliyeva end*/   
-    
+    /*Mecid start*/
     .Footer .Right ul li {
         margin-left: 600px;
         margin-top: 20px;
     }
+    /*Mecid end*/
 }
 
 @media(min-width: 320px) and (max-width:991px) {
@@ -1627,13 +1569,11 @@ ul li {
         line-height: 115%;
         color: #000000;
     }
-
     .time .calendar img {
         width: 9.32px;
         height: 10.25px;
         margin-left: 30px;
     }
-
     .time .calendar p {
         width: 60.58px;
         height: 14.91px;
@@ -1644,7 +1584,6 @@ ul li {
         line-height: 115%;
         color: #000000;
     }
-
     .movie{
         margin-top: 50px;
     }
@@ -1656,7 +1595,6 @@ ul li {
         line-height: 101.38%;
         color: #000000;
     }
-
     .movie p {
         width: 212.4px;
         height: 28.96px;
@@ -1665,14 +1603,22 @@ ul li {
         line-height: 150%;
         color: #000000;
     }
-
     .movie img {
         width: 141.66px;
         height: 165.89px;
         margin-left: 200px;
         margin-top: -10px;
+        z-index: 2;
     }
-
+    .movie  .circle{
+        width: 127px;
+        height: 19px;
+        margin-left: 215px;
+        margin-top: -15px ;
+        background: #EFEFEF;
+        border-radius: 50%;
+        z-index: 1;
+    }
     .about {
         width: 225.36px;
         height: 93.19px;
@@ -1681,7 +1627,6 @@ ul li {
         background: #1E4681;
         border-radius: 2.32986px;
     }
-
     .about p {
         width: 200.64px;
         height: 52.65px;
@@ -1692,7 +1637,6 @@ ul li {
         line-height: 130%;
         color: #FFFFFF;
     }
-
     .about span {
         width: 130.7px;
         height: 21.27px;
@@ -1715,7 +1659,6 @@ ul li {
         line-height: 101.38%;
         color: #000000;
     }
-
     .content p {
         width: 308.47px;
         height: 174.27px;
@@ -1724,14 +1667,12 @@ ul li {
         line-height: 150%;
         color: #000000;
     }
-
     .content img {
         width: 170.55px;
         height: 160.29px;
         margin-left: 100px;
         margin-top: 25px;
     }
-
     .content .circle {
         width: 170.55px;
         height: 27.49px;
@@ -1740,7 +1681,6 @@ ul li {
         background: #EFEFEF;
         border-radius: 50%;
     }
-
     .text img {
         display: none;
     }
@@ -1758,7 +1698,6 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     .lesson p {
         width: 86px;
         height: 18px;
@@ -1767,7 +1706,6 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     .hour h4 {
         width: 69.9px;
         height: 18.17px;
@@ -1777,7 +1715,6 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     .hour p {
         width: 86.89px;
         height: 18.5px;
@@ -1787,7 +1724,6 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     .weak h4 {
         width: 69.9px;
         height: 18.17px;
@@ -1798,7 +1734,6 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     .weak p {
         width: 76px;
         height: 18px;
@@ -1808,7 +1743,6 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
     /*Ramila end*/
 
 
@@ -1832,7 +1766,6 @@ ul li {
     line-height: 101.38%;
     color: #000000;
     } 
-    
     .oneBlock{
     display: flex;
     flex-direction: column;
@@ -1844,14 +1777,12 @@ ul li {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     }
-    
     .oneBlock img{
     width: 186px;
     height: 75px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     }
-    
     .oneBlock h4{
     width: 171px;
     height: 19px;
@@ -1861,7 +1792,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-    
     .oneBlock p{
     width: 171px;
     height: 30px;
@@ -1881,15 +1811,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-     }
-        
+     }   
     .twoBlock img{
     width: 186px;
     height: 75px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-        
+    }  
     .twoBlock h4{
     width: 171px;
     height: 19px;
@@ -1898,8 +1826,7 @@ ul li {
     font-size: 14px;
     line-height: 130%;
     color: #000000;
-    }
-        
+    }   
     .twoBlock p{
     width: 171px;
     height: 30px;
@@ -1909,7 +1836,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-    
     .threeBlock{
     display: flex;
     flex-direction: column;
@@ -1920,15 +1846,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-            
+    }       
     .threeBlock img{
     width: 186px;
     height: 75px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-            
+    }       
     .threeBlock h4{
     width: 171px;
     height: 19px;
@@ -1937,8 +1861,7 @@ ul li {
     font-size: 14px;
     line-height: 130%;
     color: #000000;
-    }
-            
+    }       
     .threeBlock p{
     width: 171px;
     height: 30px;
@@ -1958,15 +1881,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-                
+    }           
     .fourBlock img{
     width: 186px;
     height: 75px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                
+    }           
     .fourBlock h4{
     width: 171px;
     height: 19px;
@@ -1975,8 +1896,7 @@ ul li {
     font-size: 14px;
     line-height: 130%;
     color: #000000;
-    }
-                
+    }           
     .fourBlock p{
     width: 171px;
     height: 30px;
@@ -1986,7 +1906,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-    
     .fiveBlock{
     display: flex;
     flex-direction: column;
@@ -1997,15 +1916,13 @@ ul li {
     background: #FFFFFF;
     border-radius: 30px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    }
-                    
+    }               
     .fiveBlock img{
     width: 186px;
     height: 75px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                    
+    }               
     .fiveBlock h4{
     width: 171px;
     height: 19px;
@@ -2014,8 +1931,7 @@ ul li {
     font-size: 14px;
     line-height: 130%;
     color: #000000;
-    }
-                    
+    }               
     .fiveBlock p{
     width: 171px;
     height: 30px;
@@ -2035,15 +1951,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-                        
+    }                   
     .sixBlock img{
     width: 186px;
     height: 75px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                        
+    }                   
     .sixBlock h4{
     width: 171px;
     height: 19px;
@@ -2052,8 +1966,7 @@ ul li {
     font-size: 14px;
     line-height: 130%;
     color: #000000;
-    }
-                        
+    }                   
     .sixBlock p{
     width: 171px;
     height: 30px;
@@ -2063,7 +1976,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-    
     .sevenBlock{
     display: flex;
     flex-direction: column;
@@ -2074,15 +1986,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-                            
+    }                       
     .sevenBlock img{
     width: 186px;
     height: 75px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                                                    
+    }                                               
     .sevenBlock h4{
     width: 171px;
     height: 19px;
@@ -2091,8 +2001,7 @@ ul li {
     font-size: 14px;
     line-height: 130%;
     color: #000000;
-    }
-                            
+    }                       
     .sevenBlock p{
     width: 171px;
     height: 30px;
@@ -2112,15 +2021,13 @@ ul li {
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
-                                
+    }                           
     .eightBlock img{
     width: 186px;
     height: 75px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    }
-                                
+    }                           
     .eightBlock h4{
     width: 171px;
     height: 23px;
@@ -2129,8 +2036,7 @@ ul li {
     font-size: 14px;
     line-height: 130%;
     color: #000000;
-    }
-                                
+    }                           
     .eightBlock p{
     width: 171px;
     height: 30px;
@@ -2141,7 +2047,6 @@ ul li {
     line-height: 130%;
     color: #000000;
     }
-
     /*Naila Aliyeva start*/
     .card{
         padding: 10vw 0 3em;
@@ -2323,6 +2228,7 @@ ul li {
 
     /*Naila Aliyeva end*/
 
+    /*Mecid start*/
     .Footer {
         width: 100%;
         height: 251px;
@@ -2383,5 +2289,7 @@ ul li {
         font-size: 12px;
         line-height: 101.38%;
     }
+
+    /*Mecid end*/
     
 }
