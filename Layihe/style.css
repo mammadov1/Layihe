@@ -8,114 +8,96 @@
 }
 
 .container {
-    height: 2500px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 60px;
 }
-
 header img {
     width: 112px;
-    height: 66px;
-    margin-left: 121px;
-    margin-top: 60px;
+    height: 66px;   
 }
-
 .time{
     display: flex;
     flex-direction: row;
-    
+    margin-top: 100px;
 }
 .time .course img {
     width: 22px;
     height: 21px;
-    margin-left: 121px;
-    margin-top: 100px;
 }
-
 .time .course p {
-    width: 130px;
+    width: 500px;
     height: 32px;
-    margin-left: 151px;
+    margin-left: 30px;
     margin-top: -25px;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
     color: #000000;
 }
-
 .time .clock img {
     width: 22px;
     height: 22px;
-    margin-left: 70px;
-    margin-top: 100px;
+    margin-left: -350px;
 }
-
 .time .clock p {
     width: 130px;
     height: 32px;
-    margin-left: 100px;
+    margin-left: -320px;
     margin-top: -25px;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
     color: #000000;
 }
-
 .time .calendar img {
     width: 20px;
     height: 22px;
-    margin-left: 65px;
-    margin-top: 100px;
+    margin-left:-200px;
 }
-
 .time .calendar p {
     width: 130px;
     height: 32px;
-    margin-left: 100px;
+    margin-left: -170px;
     margin-top: -25px;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
     color: #000000;
 }
-
+.movie{
+    margin-top: 60px;
+}
 .movie h1 {
     width: 628px;
     height: 190px;
-    margin-left: 122px;
-    margin-top: 60px;
     font-weight: 700;
     font-size: 80px;
     line-height: 101.38%;
     color: #000000;
 }
-
 .movie p {
     width: 414px;
     height: 62px;
-    margin-left: 122px;
-    margin-top: 15px;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     color: #000000;
 }
-
 .movie img {
     width: 304px;
     height: 356px;
-    margin-left: 890px;
+    margin-left: 800px;
     margin-top: -300px;
 }
-
 .about {
     width: 483.63px;
     height: 200px;
-    margin-left: 409.39px;
-    margin-top: 150px;
+    margin-left: 300px;
+    margin-top: 100px;
     background: #1E4681;
     border-radius: 5px;
-
 }
-
 .about p {
     width: 430.59px;
     height: 113px;
@@ -124,11 +106,8 @@ header img {
     line-height: 130%;
     color: #FFFFFF;
     margin-left: 20px;
-    margin-top: 15px;
     padding-top: 30px;
-
 }
-
 .about span {
     width: 280.5px;
     height: 45.64px;
@@ -139,45 +118,37 @@ header img {
     color: #FFFFFF;
     display: inline-block;
     margin-left: 125px;
-    margin-top: 15px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
-
-
 /*Ramila start*/
+.content{
+    margin-top: 200px;
+}
 .content h2 {
     width: 365px;
     height: 93px;
-    margin-left: 121px;
-    margin-top: 300px;
     font-weight: 700;
     font-size: 55px;
     line-height: 101.38%;
     color: #000000;
-
 }
 
 .content p {
     width: 662px;
     height: 374px;
-    margin-left: 121px;
-    margin-top: 70px;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
     color: #000000;
 }
-
 .content img {
     width: 314px;
     height: 315px;
-    margin-left: 973px;
+    margin-left: 970px;
     margin-top: -300px;
-    background: url(_1);
     z-index: 2;
 }
-
 .content .circle {
     width: 366px;
     height: 59px;
@@ -187,82 +158,69 @@ header img {
     z-index: 1;
     border-radius: 50%;
 }
-
 .text img {
     width: 232px;
     height: 203px;
-    margin-left: 161px;
-    margin-top: 200px;
 }
-
-
-
+.word{
+ margin-left: 485px;
+ margin-top: -50px;
+ display: flex;
+ flex-direction: row;
+}
 .lesson h4 {
     width: 150px;
     height: 39px;
-    margin-left: 485px;
-    margin-top: -100px;
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
     color: #000000;
 }
-
 .lesson p {
     width: 150px;
     height: 39px;
-    margin-left: 485px;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
     color: #000000;
 }
-
 .hour h4 {
     width: 150px;
     height: 39px;
-    margin-left: 730px;
-    margin-top: -77px;
+    margin-left: 100px;
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
     color: #000000;
 }
-
 .hour p {
     width: 150px;
     height: 39px;
-    margin-left: 730px;
+    margin-left: 100px;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
     color: #000000;
 }
-
 .weak h4 {
     width: 150px;
     height: 39px;
-    margin-left: 973px;
-    margin-top: -77px;
+    margin-left: 100px;
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
     color: #000000;
 }
-
 .weak p {
     width: 150px;
     height: 39px;
-    margin-left: 973px;
+    margin-left: 100px;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
     color: #000000;
 }
-
-
 /*Ramila end*/
-
 
 
 /*Ferid start*/
@@ -271,26 +229,19 @@ header img {
     margin-left: 120px;
     margin-right: 345px;
 }
-
-
 .course-about h2, .course-learn h2 {
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
-   
-    
 }
-
 .course-formats {
     display: flex;
     margin-top: 90px;
 }
-
 .course-format  {
     margin-right: 170px;
 }
-
 .course-format h4 {
     font-family: 'Roboto';
     font-style: normal;
@@ -299,7 +250,6 @@ header img {
     line-height: 130%;
     color: #1E4681;
 }
-
 .course-format p {
     font-family: 'Roboto';
     font-style: normal;
@@ -308,7 +258,6 @@ header img {
     line-height: 130%;
     color: #000000;
 }
-
 .learn-list {
     margin-left: 20px;
     margin-top: 50px;
@@ -319,19 +268,19 @@ header img {
     line-height: 150%;
     color: #000000;
 }
-
 /*Ferid end*/
 
 
 /*Ramila start*/
 .programcourse{
-    height: 1490px;
+margin-top: 200px;
+padding-left: 120px;
+padding-right: 120px;
+margin-bottom: 100px;
 }
 .programcourse h1{
 width: 905px;
 height: 93px;
-margin-left: 120px;
-margin-top: 200px;
 font-weight: 700;
 font-size: 55px;
 line-height: 101.38%;
@@ -341,10 +290,9 @@ color: #000000;
 .oneBlock{
 display: flex;
 flex-direction: column;
+margin-top: 100px;
 width: 399px;
 height: 328px;
-margin-left: 100px;
-margin-top: 100px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
@@ -381,7 +329,7 @@ display: flex;
 flex-direction: column;
 width: 399px;
 height: 328px;
-margin-left: 530px;
+margin-left: 470px;
 margin-top: -328px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
@@ -420,7 +368,7 @@ display: flex;
 flex-direction: column;
 width: 399px;
 height: 328px;
-margin-left: 960px;
+margin-left: 940px;
 margin-top: -328px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
@@ -458,7 +406,6 @@ display: flex;
 flex-direction: column;
 width: 399px;
 height: 328px;
-margin-left: 100px;
 margin-top: 100px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
@@ -497,7 +444,7 @@ display: flex;
 flex-direction: column;
 width: 399px;
 height: 328px;
-margin-left: 530px;
+margin-left: 470px;
 margin-top: -328px;
 background: #FFFFFF;
 border-radius: 30px;
@@ -535,7 +482,7 @@ display: flex;
 flex-direction: column;
 width: 399px;
 height: 328px;
-margin-left: 960px;
+margin-left: 950px;
 margin-top: -328px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
@@ -574,7 +521,6 @@ display: flex;
 flex-direction: column;
 width: 399px;
 height: 328px;
-margin-left: 100px;
 margin-top: 100px;
 margin-bottom: 300px;
 background: #FFFFFF;
@@ -613,7 +559,7 @@ display: flex;
 flex-direction: column;
 width: 399px;
 height: 328px;
-margin-left: 530px;
+margin-left: 470px;
 margin-top: -628px;
 background: #FFFFFF;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
@@ -898,45 +844,42 @@ ul li {
 @media (min-width:991px) and (max-width:1279px) {
     
     .container {
-        height: 1500;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 30px;
     }
-    
     header img {
         width: 64.87px;
         height: 38.23px;
-        margin-left: 70.8px;
-        margin-top: 22px;
     }
-
+    .time{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
     .time .course img {
         width: 12.74px;
         height: 12.16px;
-        margin-left: 70.08px;
-        margin-top: 35px;
     }
-
     .time .course p {
         width: 75.29px;
         height: 18.53px;
-        margin-left: 87.45px;
+        margin-left: 25px;
         margin-top: -17px;
         font-weight: 400;
         font-size: 12px;
         line-height: 115%;
         color: #000000;
     }
-
     .time .clock img {
         width: 12.74px;
         height: 12.74px;
-        margin-left: 177.23px;
-        margin-top: -25px;
+        margin-left: 40px;
     }
-
     .time .clock p {
         width: 75.29px;
         height: 18.53px;
-        margin-left: 195.76px;
+        margin-left: 60px;
         margin-top: -17px;
         font-weight: 400;
         font-size: 12px;
@@ -947,50 +890,44 @@ ul li {
     .time .calendar img {
         width: 11.58px;
         height: 12.74px;
-        margin-left: 270.47px;
-        margin-top: 0px;
+        margin-left: 40px;
     }
 
     .time .calendar p {
         width: 75.29px;
         height: 18.53px;
-        margin-left: 289.58px;
+        margin-left: 60px;
         margin-top: -17px;
         font-weight: 400;
         font-size: 12px;
         line-height: 115%;
         color: #000000;
     }
-
+    .movie{
+      margin-top: 50px;
+    }
     .movie h1 {
         width: 363.72px;
         height: 110.04px;
-        margin-left: 50px;
-        margin-top: 5px;
         font-weight: 700;
         font-size: 46px;
         line-height: 101.38%;
         color: #000000;
     }
-
     .movie p {
         width: 264px;
         height: 36px;
-        margin-left: 50px;
-        margin-top: -5px;
         font-weight: 400;
         font-size: 12px;
         line-height: 150%;
         color: #000000;
     }
-
     .movie img {
         width: 176.07px;
         height: 206.18px;
         margin-left: 515px;
         margin-top: -160px;
     }
-
     .about {
         width: 280.11px;
         height: 115.83px;
@@ -999,12 +936,11 @@ ul li {
         background: #1E4681;
         border-radius: 2.89583px;
     }
-
     .about p {
         width: 249.38px;
         height: 65.45px;
         margin-left: 25px;
-        padding-top: -5px;
+        padding-top: 15px;
         font-weight: 400;
         font-size: 14px;
         line-height: 130%;
@@ -1027,37 +963,31 @@ ul li {
     }
 
     /*Ramila start*/
+    .content{
+     margin-top: 50px;
+    }
     .content h2 {
         width: 211.4px;
         height: 53.86px;
-        margin-left: 50px;
-        margin-top: 50px;
         font-weight: 700;
         font-size: 32px;
         line-height: 101.38%;
         color: #000000;
     }
-
     .content p {
         width: 383.41px;
         height: 216.61px;
-        margin-left: 50px;
-        margin-top: 6px;
         font-weight: 400;
         font-size: 14px;
         line-height: 150%;
         color: #000000;
     }
-
     .content img {
         width: 181.86px;
         height: 182.44px;
         margin-left: 550px;
         margin-top: -200px;
-        background: url(_1.png);
-
     }
-
     .content .circle {
         width: 211.98px;
         height: 34.17px;
@@ -1067,42 +997,38 @@ ul li {
         border-radius: 50%;
     }
 
-    .text img {
+    .content .text img {
         width: 134.37px;
         height: 117.57px;
-        margin-left: 50px;
         margin-top: 9px;
-        background: url(photo);
     }
-
-
+.word{
+    display: flex;
+    flex-direction: row;
+    margin-left: 320px;
+}
     .lesson h4 {
         width: 86.88px;
         height: 22.59px;
-        margin-left: 280px;
         margin-top: -100px;
         font-weight: 700;
         font-size: 15px;
         line-height: 130%;
         color: #000000;
     }
-
     .lesson p {
         width: 86.88px;
         height: 22.59px;
-        margin-left: 280px;
         margin-top: 3px;
         font-weight: 400;
         font-size: 11px;
         line-height: 130%;
         color: #000000;
     }
-
     .hour h4 {
         width: 86.88px;
         height: 22.59px;
-        margin-left: 422px;
-        margin-top: -50px;
+        margin-top: -100px;
         font-weight: 700;
         font-size: 15px;
         line-height: 130%;
@@ -1112,7 +1038,6 @@ ul li {
     .hour p {
         width: 108px;
         height: 23px;
-        margin-left: 422px;
         margin-top: 3px;
         font-weight: 400;
         font-size: 11px;
@@ -1123,8 +1048,7 @@ ul li {
     .weak h4 {
         width: 86.88px;
         height: 22.59px;
-        margin-left: 563px;
-        margin-top: -50px;
+        margin-top: -100px;
         font-weight: 700;
         font-size: 15px;
         line-height: 130%;
@@ -1134,7 +1058,6 @@ ul li {
     .weak p {
         width: 86.88px;
         height: 22.59px;
-        margin-left: 563px;
         margin-top: 3px;
         font-weight: 400;
         font-size: 11px;
@@ -1155,7 +1078,10 @@ ul li {
     /*Ramila start*/
      
     .programcourse{
-        height: 850px;
+    margin-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 50px;
     }
     .programcourse h1{
     width: 525px;
@@ -1657,43 +1583,44 @@ ul li {
 }
 
 @media(min-width: 320px) and (max-width:991px) {
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 30px;
+    }
     header img {
         width: 52.19px;
         height: 30.75px;
-        margin-left: 35px;
-        margin-top: 30px;
     }
-
+.time{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
     .time .course img {
         width: 10.25px;
         height: 9.79px;
-        margin-left: 35px;
-        margin-top: 50px;
     }
 
     .time .course p {
         width: 60.58px;
         height: 14.91px;
-        margin-left: 48.98px;
+        margin-left: 20px;
         margin-top: -15px;
         font-weight: 400;
         font-size: 10px;
         line-height: 115%;
         color: #000000;
-
     }
-
     .time .clock img {
         width: 10.25px;
         height: 10.25px;
-        margin-left: 121.21px;
-        margin-top: -100px;
+        margin-left: 30px;
     }
-
     .time .clock p {
         width: 60.58px;
         height: 14.91px;
-        margin-left: 136.12px;
+        margin-left: 50px;
         margin-top: -15px;
         font-weight: 400;
         font-size: 10px;
@@ -1704,14 +1631,13 @@ ul li {
     .time .calendar img {
         width: 9.32px;
         height: 10.25px;
-        margin-left: 196.23px;
-        margin-top: -100px;
+        margin-left: 30px;
     }
 
     .time .calendar p {
         width: 60.58px;
         height: 14.91px;
-        margin-left: 211.6px;
+        margin-left: 50px;
         margin-top: -15px;
         font-weight: 400;
         font-size: 10px;
@@ -1719,10 +1645,12 @@ ul li {
         color: #000000;
     }
 
+    .movie{
+        margin-top: 50px;
+    }
     .movie h1 {
         width: 292.63px;
         height: 88.53px;
-        margin-left: 35px;
         font-weight: 700;
         font-size: 37px;
         line-height: 101.38%;
@@ -1732,8 +1660,6 @@ ul li {
     .movie p {
         width: 212.4px;
         height: 28.96px;
-        margin-left: 35px;
-        margin-top: 0px;
         font-weight: 400;
         font-size: 10px;
         line-height: 150%;
@@ -1751,7 +1677,7 @@ ul li {
         width: 225.36px;
         height: 93.19px;
         margin-left: 37px;
-        margin-top: 10px;
+        margin-top: 50px;
         background: #1E4681;
         border-radius: 2.32986px;
     }
@@ -1776,19 +1702,14 @@ ul li {
         text-align: right;
         color: #FFFFFF;
         display: inline-block;
-        margin-left: 80px;
-        margin-top: 8px;
-
     }
-
-
-
     /*Ramila start*/
+    .content{
+        margin-top: 50px;
+    }
     .content h2 {
         width: 170.08px;
         height: 43.34px;
-        margin-left: 36px;
-        margin-top: 36px;
         font-weight: 700;
         font-size: 26px;
         line-height: 101.38%;
@@ -1798,8 +1719,6 @@ ul li {
     .content p {
         width: 308.47px;
         height: 174.27px;
-        margin-left: 36px;
-        margin-top: 10px;
         font-weight: 400;
         font-size: 12px;
         line-height: 150%;
@@ -1819,19 +1738,21 @@ ul li {
         margin-left: 100px;
         margin-top: -15px;
         background: #EFEFEF;
-        z-index: 1;
         border-radius: 50%;
     }
 
     .text img {
         display: none;
     }
-    
+    .word{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
     .lesson h4 {
         width: 69.9px;
         height: 18.17px;
-        margin-left: 35px;
-        margin-top: 50px;
         font-weight: 700;
         font-size: 12px;
         line-height: 130%;
@@ -1841,8 +1762,6 @@ ul li {
     .lesson p {
         width: 86px;
         height: 18px;
-        margin-left: 35px;
-        margin-top: 2px;
         font-weight: 400;
         font-size: 10px;
         line-height: 130%;
@@ -1852,8 +1771,7 @@ ul li {
     .hour h4 {
         width: 69.9px;
         height: 18.17px;
-        margin-left: 154.16px;
-        margin-top: -40px;
+        margin-left: 50px;
         font-weight: 700;
         font-size: 12px;
         line-height: 130%;
@@ -1863,8 +1781,7 @@ ul li {
     .hour p {
         width: 86.89px;
         height: 18.5px;
-        margin-left: 154.16px;
-        margin-top: 2px;
+        margin-left: 50px;
         font-weight: 400;
         font-size: 10px;
         line-height: 130%;
@@ -1874,8 +1791,8 @@ ul li {
     .weak h4 {
         width: 69.9px;
         height: 18.17px;
-        margin-left: 35px;
-        margin-top: 45px;
+        margin-left: -225px;
+        margin-top: 70px;
         font-weight: 700;
         font-size: 12px;
         line-height: 130%;
@@ -1885,8 +1802,7 @@ ul li {
     .weak p {
         width: 76px;
         height: 18px;
-        margin-left: 35px;
-        margin-top: 2px;
+        margin-left: -225px;
         font-weight: 400;
         font-size: 10px;
         line-height: 130%;
@@ -1903,14 +1819,14 @@ ul li {
     /*Ferid end*/
 
     .programcourse{
-        height: 1800px;
+       padding-left: 70px;
+       padding-right: 70px;
+       margin-top: 50px;
        
     }
     .programcourse h1{
     width: 422px;
     height: 44px;
-    margin-left: 34px;
-    margin-top: 100px;
     font-weight: 700;
     font-size: 26px;
     line-height: 101.38%;
