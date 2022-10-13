@@ -239,48 +239,55 @@ header img {
 /*Ferid start*/
 .course-about, .course-learn {
     margin-top: 180px;
-    margin-left: 120px;
-    margin-right: 345px;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
 }
+
 .course-about h2, .course-learn h2 {
     font-family: 'Roboto Slab';
-    font-style: normal;
     font-weight: 700;
     font-size: 55px;
 }
+
 .course-formats {
     display: flex;
     margin-top: 90px;
 }
+
 .course-format  {
-    margin-right: 170px;
+    margin-right: 120px;
+    width: 100%;
 }
+
 .course-format h4 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
     color: #1E4681;
 }
+
 .course-format p {
-    font-family: 'Roboto';
-    font-style: normal;
+    margin-top: 10px;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
     color: #000000;
 }
+
 .learn-list {
     margin-left: 20px;
     margin-top: 50px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
     color: #000000;
 }
+
+.learn-list-item {
+    list-style: disc;
+}
+
 /*Ferid end*/
 
 
@@ -1046,6 +1053,34 @@ ul li {
 
     /*Ferid start*/
 
+    .course-about, .course-learn {
+        margin-top: 100px;
+    }
+
+    .course-formats {
+        margin-top: 50px;
+    }
+
+    .learn-list {
+        margin-top: 25px;
+    }
+    
+    .course-about h2, .course-learn h2 {
+        font-size: 32px;
+    }
+    
+    .course-format h4 {
+        font-size: 15px;
+    }
+    
+    .course-format p {
+        font-size: 11px;
+    }
+    
+    .learn-list {
+        font-size: 14px;
+    }
+
     /*Ferid end*/
 
 
@@ -1747,8 +1782,40 @@ ul li {
 
 
     /*Ferid start*/
+    
+    .course-about h2, .course-learn h2 {
+        font-size: 26px;
+    }
+    
+    .course-format {
+        margin-top: 10px;
+    }
 
+    .course-format h4 {
+        font-size: 12px;
+    }
+    
+    .course-format p {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    
+    .learn-list {
+        font-size: 12px;
+    }
 
+    .course-about, .course-learn {
+        margin-top: 75px;
+    }
+
+    .course-formats {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .learn-list {
+        margin-top: 15px;
+    }
 
     /*Ferid end*/
 
