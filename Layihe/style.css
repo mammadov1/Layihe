@@ -813,8 +813,87 @@ color: #000000;
     align-items: center;
 }
 
-
 /*Naila Aliyeva end*/
+
+
+ul li {
+    list-style: none;
+}
+
+.Footer {
+    width: 100%;
+    height: 390px;
+    margin-left: -1px;
+    background: #000000;
+}
+
+.Footer .Left img {
+    width: 115px;
+    height: 68px;
+    margin-left: 121px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.Footer .Left ul li img {
+    width: 33px;
+    height: 33px;
+    margin-left: 30px;
+}
+
+.Footer .Left ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.Footer .Left ul li:first-child {
+    margin-left: 90px;
+}
+
+.Footer .Left p {
+    width: 230px;
+    height: 40px;
+    margin-left: 121px;
+    margin-top: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+    color: #FFFFFF;
+}
+
+.Footer .Right {
+    margin-top: -345px;
+}
+
+.Footer .Right ul li {
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+.Footer .Right ul li #one {
+    width: 27px;
+    height: 27px;
+}
+
+.Footer .Right ul li #two {
+    width: 27px;
+    height: 18px;
+}
+
+.Footer .Right p {
+    display: inline-block;
+    margin-left: 30px;
+    width: 230px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    color: #FFFFFF;
+}
 
 @media (min-width:991px) and (max-width:1279px) {
     
@@ -1570,6 +1649,11 @@ color: #000000;
     
  
     /*Naila Aliyeva end*/   
+    
+    .Footer .Right ul li {
+        margin-left: 600px;
+        margin-top: 20px;
+    }
 }
 
 @media(min-width: 320px) and (max-width:991px) {
@@ -2323,6 +2407,65 @@ color: #000000;
 
     /*Naila Aliyeva end*/
 
-    
+    .Footer {
+        width: 100%;
+        height: 251px;
+    }
+
+    .Footer .Left img {
+        width: 53.59px;
+        height: 31.69px;
+        margin-left: 37.85px;
+        margin-top: 10px;
+    }
+
+    .Footer .Left ul li img {
+        width: 15.38px;
+        height: 15.38px;
+        margin-left: 10px;
+    }
+
+    .Footer .Left ul li {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .Footer .Left ul li:first-child {
+        margin-left: 30px;
+    }
+
+    .Footer .Left p {
+        width: 141px;
+        height: 19px;
+        margin-left: 38px;
+        margin-top: 120px;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+
+    .Footer .Right ul li {
+        margin-left: 37px;
+        margin-top: 3px;
+    }
+
+    .Footer .Right ul li #one {
+        width: 12.58px;
+        height: 12.58px;
+        margin-top: 240px;
+    }
+
+    .Footer .Right ul li #two {
+        width: 12.58px;
+        height: 8.39px;
+    }
+
+    .Footer .Right p {
+        width: 107.17px;
+        height: 18.64px;
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
     
 }
