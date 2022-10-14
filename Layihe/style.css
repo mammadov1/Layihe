@@ -12,7 +12,7 @@
     padding-left: 120px;
    margin-right: 120px;
     padding-top: 60px;
-    width: 3500px;
+    width: 100%;
 }
 
 header img {
@@ -178,7 +178,7 @@ header img {
 .content img {
     width: 314px;
     height: 315px;
-    margin-left: 970px;
+    margin-left: 770px;
     margin-top: -300px;
     z-index: 2;
 }
@@ -186,7 +186,7 @@ header img {
 .content .circle {
     width: 366px;
     height: 59px;
-    margin-left: 947px;
+    margin-left: 747px;
     margin-top: -50px;
     background: #EFEFEF;
     z-index: 1;
@@ -1218,6 +1218,7 @@ ul li {
         padding-left: 70px;
         padding-right: 70px;
         margin-bottom: 50px;
+        width: 100%;
     }
 
     .programcourse h1 {
@@ -1230,7 +1231,10 @@ ul li {
         line-height: 101.38%;
         color: #000000;
     }
-
+.allBlock{
+    width: 100%;
+    padding-right: 100vw;
+}
     .oneBlock {
         display: flex;
         flex-direction: column;
