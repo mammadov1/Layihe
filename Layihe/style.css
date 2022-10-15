@@ -6,117 +6,82 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #000;
 }
-
 .container {
+    margin-bottom: 100px;
     padding-left: 120px;
-   margin-right: 120px;
+    margin-right: 120px;
     padding-top: 60px;
     width: 100%;
 }
-
 header img {
     width: 112px;
     height: 66px;
 }
-
 .time {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
 }
-
 .time .course img {
     width: 22px;
     height: 21px;
 }
-
 .time .course p {
     width: 500px;
     height: 32px;
     margin-left: 30px;
     margin-top: -25px;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 115%;
-    color: #000000;
 }
-
 .time .clock img {
     width: 22px;
     height: 22px;
     margin-left: -350px;
 }
-
 .time .clock p {
     width: 130px;
     height: 32px;
     margin-left: -320px;
     margin-top: -25px;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 115%;
-    color: #000000;
 }
-
 .time .calendar img {
     width: 20px;
     height: 22px;
     margin-left: -200px;
 }
-
 .time .calendar p {
     width: 130px;
     height: 32px;
     margin-left: -170px;
     margin-top: -25px;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 115%;
-    color: #000000;
 }
-
 .movie {
+    display: flex;
+    flex-direction: row;
     margin-top: 60px;
 }
-
 .movie h1 {
     width: 628px;
     height: 190px;
-    font-weight: 700;
     font-size: 80px;
-    line-height: 101.38%;
-    color: #000000;
 }
-
 .movie p {
+    margin-top: 50px;
     width: 414px;
     height: 62px;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 150%;
-    color: #000000;
 }
-
 .movie img {
     width: 304px;
     height: 356px;
-    margin-left: 800px;
-    margin-top: -300px;
-    z-index: 2;
+    margin-left: 150px;
 }
-
-.movie .circle {
-    width: 274px;
-    height: 62px;
-    margin-left: 840px;
-    margin-top: -35px;
-    background: #EFEFEF;
-    border-radius: 50%;
-    z-index: 1;
-
-}
-
 .about {
     width: 483.63px;
     height: 200px;
@@ -125,18 +90,15 @@ header img {
     background: #1E4681;
     border-radius: 5px;
 }
-
 .about p {
     width: 430.59px;
     height: 113px;
     font-weight: 400;
     font-size: 25px;
-    line-height: 130%;
     color: #FFFFFF;
     margin-left: 20px;
     padding-top: 30px;
 }
-
 .about span {
     width: 280.5px;
     height: 45.64px;
@@ -149,508 +111,343 @@ header img {
     margin-left: 125px;
     padding-top: 40px;
 }
-
 /*Mecid end*/
-
 /*Ramila start*/
 .content {
     margin-top: 200px;
+    display: flex;
+    flex-direction: row;
 }
-
 .content h2 {
     width: 365px;
     height: 93px;
-    font-weight: 700;
     font-size: 55px;
-    line-height: 101.38%;
-    color: #000000;
 }
-
 .content p {
     width: 662px;
     height: 374px;
-    font-weight: 400;
     font-size: 24px;
-    line-height: 150%;
-    color: #000000;
+    margin-top: 50px;
 }
-
 .content img {
     width: 314px;
     height: 315px;
-    margin-left: 770px;
-    margin-top: -300px;
-    z-index: 2;
+    margin-left: 150px;
 }
-
-.content .circle {
-    width: 366px;
-    height: 59px;
-    margin-left: 747px;
-    margin-top: -50px;
-    background: #EFEFEF;
-    z-index: 1;
-    border-radius: 50%;
+.text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
 }
-
 .text img {
     width: 232px;
     height: 203px;
 }
-
-.word {
-    margin-left: 485px;
-    margin-top: -60px;
-    display: flex;
-    flex-direction: row;
-}
-
 .lesson h4 {
     width: 150px;
     height: 39px;
-    font-weight: 700;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
+    margin-left: 100px;
 }
-
 .lesson p {
     width: 150px;
     height: 39px;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 130%;
-    color: #000000;
+    margin-left: 100px;
 }
-
 .hour h4 {
     width: 150px;
     height: 39px;
     margin-left: 100px;
-    font-weight: 700;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .hour p {
     width: 150px;
     height: 39px;
     margin-left: 100px;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .weak h4 {
     width: 150px;
     height: 39px;
     margin-left: 100px;
-    font-weight: 700;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .weak p {
     width: 150px;
     height: 39px;
     margin-left: 100px;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 130%;
-    color: #000000;
 }
-
 /*Ramila end*/
-
-
 /*Ferid start*/
 .course-about,
 .course-learn {
     margin-top: 180px;
     width: 100%;
-    font-family: 'Roboto';
-    font-style: normal;
 }
-
 .course-about h2,
 .course-learn h2 {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 55px;
+    font-size: 60px;
 }
-
 .course-formats {
     display: flex;
     margin-top: 90px;
 }
-
 .course-format {
     margin-right: 120px;
     width: 100%;
 }
-
 .course-format h4 {
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 130%;
+    font-size: 30px;
     color: #1E4681;
 }
-
 .course-format p {
     margin-top: 10px;
     font-weight: 400;
     font-size: 18px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .learn-list {
     margin-left: 20px;
     margin-top: 50px;
-    font-weight: 400;
     font-size: 24px;
-    line-height: 150%;
-    color: #000000;
 }
-
 .learn-list-item {
     list-style: disc;
 }
-
 /*Ferid end*/
-
-
 /*Ramila start*/
 .programcourse {
     margin-top: 200px;
-    padding-left: 120px;
-    padding-right: 120px;
-    margin-bottom: 100px;
 }
-
 .programcourse h1 {
     width: 905px;
     height: 93px;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 101.38%;
-    color: #000000;
+    font-size: 60px;
 }
-
+.allBlock1{
+    display:flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
 .oneBlock {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    width: 399px;
+    margin-right: 50px;
+    width: 350px;
     height: 328px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
-
 .oneBlock img {
-    width: 399px;
+    width: 350px;
     height: 160px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-
 .oneBlock h4 {
-    width: 365px;
+    width: 330px;
     height: 39px;
     padding-left: 25px;
-    font-weight: 700;
     font-size: 30px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .oneBlock p {
-    width: 365px;
+    width: 330px;
     height: 63px;
     padding-left: 25px;
-    font-weight: 400;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .twoBlock {
-    display: flex;
-    flex-direction: column;
-    width: 399px;
+    margin-right: 50px;
+    width: 350px;
     height: 328px;
-    margin-left: 470px;
-    margin-top: -328px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
-
 .twoBlock img {
-    width: 399px;
+    width: 350px;
     height: 160px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-
 .twoBlock h4 {
-    width: 365px;
+    width: 350px;
     height: 39px;
     padding-left: 25px;
-    font-weight: 700;
     font-size: 30px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .twoBlock p {
-    width: 365px;
+    width: 330px;
     height: 63px;
     padding-left: 25px;
-    font-weight: 400;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .threeBlock {
-    display: flex;
-    flex-direction: column;
-    width: 399px;
+    width: 350px;
     height: 328px;
-    margin-left: 940px;
-    margin-top: -328px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
-
 .threeBlock img {
-    width: 399px;
+    width: 350px;
     height: 160px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-
 .threeBlock h4 {
-    width: 365px;
+    width: 330px;
     height: 39px;
     padding-left: 25px;
-    font-weight: 700;
     font-size: 30px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .threeBlock p {
-    width: 365px;
+    width: 330px;
     height: 63px;
     padding-left: 25px;
-    font-weight: 400;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
 }
-
+.allBlock2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
 .fourBlock {
-    display: flex;
-    flex-direction: column;
-    width: 399px;
+    margin-right: 50px;
+    width: 350px;
     height: 328px;
-    margin-top: 100px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
-
 .fourBlock img {
-    width: 399px;
+    width: 350px;
     height: 160px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-
 .fourBlock h4 {
-    width: 365px;
+    width: 330px;
     height: 39px;
     padding-left: 25px;
-    font-weight: 700;
     font-size: 30px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .fourBlock p {
-    width: 365px;
+    width: 330px;
     height: 63px;
     padding-left: 25px;
-    font-weight: 400;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .fiveBlock {
-    display: flex;
-    flex-direction: column;
-    width: 399px;
+    margin-right: 50px;
+    width: 350px;
     height: 328px;
-    margin-left: 470px;
-    margin-top: -328px;
     background: #FFFFFF;
     border-radius: 30px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 }
-
 .fiveBlock img {
-    width: 399px;
+    width: 350px;
     height: 160px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-
 .fiveBlock h4 {
-    width: 365px;
+    width: 330px;
     height: 39px;
     padding-left: 25px;
-    font-weight: 700;
     font-size: 30px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .fiveBlock p {
-    width: 365px;
+    width: 330px;
     height: 63px;
     padding-left: 25px;
-    font-weight: 400;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .sixBlock {
-    display: flex;
-    flex-direction: column;
-    width: 399px;
+    width: 350px;
     height: 328px;
-    margin-left: 950px;
-    margin-top: -328px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
-
 .sixBlock img {
-    width: 399px;
+    width: 350px;
     height: 160px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-
 .sixBlock h4 {
-    width: 365px;
+    width: 330px;
     height: 39px;
     padding-left: 25px;
-    font-weight: 700;
     font-size: 30px;
-    line-height: 130%;
-    color: #000000;
 }
-
 .sixBlock p {
-    width: 365px;
+    width: 330px;
     height: 63px;
+    padding-top: 30px;
     padding-left: 25px;
-    font-weight: 400;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
 }
-
-.sevenBlock {
+.allBlock3{
     display: flex;
-    flex-direction: column;
-    width: 399px;
-    height: 328px;
+    flex-direction: row;
     margin-top: 100px;
-    margin-bottom: 300px;
-    background: #FFFFFF;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
 }
-
-.sevenBlock img {
-    width: 399px;
-    height: 160px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-
-.sevenBlock h4 {
-    width: 365px;
-    height: 39px;
-    padding-left: 25px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 130%;
-    color: #000000;
-}
-
-.sevenBlock p {
-    width: 365px;
-    height: 63px;
-    padding-left: 25px;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 130%;
-    color: #000000;
-}
-
-.eightBlock {
-    display: flex;
-    flex-direction: column;
-    width: 399px;
+.sevenBlock {
+    width: 350px;
     height: 328px;
-    margin-left: 470px;
-    margin-top: -628px;
+    margin-right: 50px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
-
-.eightBlock img {
-    width: 399px;
+.sevenBlock img {
+    width: 350px;
     height: 160px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-
-.eightBlock h4 {
-    width: 365px;
+.sevenBlock h4 {
+    width: 330px;
     height: 39px;
     padding-left: 25px;
-    font-weight: 700;
     font-size: 30px;
-    line-height: 130%;
-    color: #000000;
 }
-
+.sevenBlock p {
+    width: 330px;
+    height: 63px;
+    padding-top: 30px;
+    padding-left: 25px;
+    font-size: 25px;
+}
+.eightBlock {
+    width: 350px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.eightBlock img {
+    width: 350px;
+    height: 160px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.eightBlock h4 {
+    width: 330px;
+    height: 39px;
+    padding-left: 25px;
+    font-size: 30px;
+}
 .eightBlock p {
-    width: 365px;
+    width: 330px;
     height: 63px;
     padding-left: 25px;
     padding-top: 30px;
-    font-weight: 400;
     font-size: 25px;
-    line-height: 130%;
-    color: #000000;
 }
-
 /*Ramila end*/
 
 /*Naila Aliyeva start*/
@@ -658,20 +455,14 @@ header img {
     padding: 5em 0em 3em;
     background-color: #EFEFEF;
 }
-
 .card .cardHead2 {
     width: 987px;
     height: 93px;
-    font-family: Roboto Slab;
     font-size: 55px;
     font-weight: bold;
-    font-style: normal;
-    color: #000000;
-    line-height: 101.38%;
     margin-bottom: 35px;
     margin-left: 122px;
 }
-
 .card .box {
     height: 451px;
     width: 791px;
@@ -683,171 +474,106 @@ header img {
     background-color: white;
     margin-bottom: 100px;
 }
-
 .card .box .up {
     height: 203px;
     width: 700px;
     left: 170px;
-    font-family: Roboto;
     font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 150%;
     padding-top: 20px;
     padding-right: 0px;
     margin-bottom: 15px;
-    color: #000000;
 }
-
 .card .box .down {
     display: flex;
     align-items: center;
 }
-
 .card .box .down .cardleft {
     height: 169px;
     width: 190px;
     left: 151px;
 }
-
 .card .box .down .cardright {
     margin-left: 30px;
 }
-
 .card .box .down .cardright p {
     height: 59px;
     width: 353px;
     left: 371px;
-    font-family: Roboto Slab;
     font-size: 30px;
-    font-style: normal;
     font-weight: bold;
-    color: #000000;
-    line-height: 101.38%;
     margin-bottom: -5px;
 }
-
 .card .box .down .cardright img {
     height: 31px;
     width: 32px;
     left: 371px;
 }
-
 .footer-top {
     width: 100%;
     height: 54.1vw;
     background: #9DC9C8;
 }
-
 .footerTopHead {
     font-weight: bold;
-    font-family: Roboto Slab;
     font-size: 3.8vw;
-    font-style: normal;
     height: 4.58vw;
     width: 68.5vw;
-    line-height: 101.38%;
-    color: #000000;
     margin-bottom: 3.75vw;
 }
-
 .textCHead {
-    font-family: Roboto;
     font-size: 1.73vw;
-    font-weight: normal;
-    font-style: normal;
     height: 2.22vw;
     width: 11.08vw;
-    color: #000000;
-    line-height: 101.38%;
 }
-
 .textCBody {
     height: 12.569vw;
     width: 33.40vw;
-    font-style: normal;
-    font-family: Roboto;
-    font-weight: normal;
     font-size: 5.55vw;
-    color: #000000;
-    line-height: 101.38%;
 }
-
 .text1Head {
-    font-style: normal;
-    font-family: Roboto;
     font-size: 1.73vw;
-    font-weight: normal;
     height: 2.22vw;
     width: 20.41vw;
-    color: #000000;
-    line-height: 101.38%;
 }
-
 .text1Body {
-    color: #000000;
-    line-height: 101.38%;
     height: 4.86vw;
     width: 20.41vw;
-    font-weight: normal;
-    font-family: Roboto;
     font-size: 1.25vw;
-    font-style: normal;
 }
-
 .text2Head {
-    font-weight: normal;
-    font-family: Roboto;
     font-size: 1.73vw;
-    font-style: normal;
-    color: #000000;
-    line-height: 101.38%;
     height: 2.22vw;
     width: 22.36vw;
 }
-
 .text2Body {
-    font-family: Roboto;
-    font-style: normal;
     font-size: 1.25vw;
-    font-weight: normal;
     height: 4.86vw;
     width: 20.41vw;
-    color: #000000;
-    line-height: 101.38%;
 }
-
 .texts {
     display: flex;
 }
-
 .footerTopContent {
     margin-left: 8.47vw;
 }
-
 .text1 {
     margin-right: 4.86vw;
 }
-
 .footer-top {
     display: flex;
     align-items: center;
 }
-
 /*Naila Aliyeva end*/
-
 /*Mecid start*/
 ul li {
     list-style: none;
 }
-
 .Footer {
     width: 100%;
     height: 390px;
     margin-left: -1px;
     background: #000000;
 }
-
 .Footer .Left img {
     width: 115px;
     height: 68px;
@@ -855,70 +581,52 @@ ul li {
     margin-top: 30px;
     display: inline-block;
 }
-
 .Footer .Left ul li img {
     width: 33px;
     height: 33px;
     margin-left: 30px;
 }
-
 .Footer .Left ul li {
     display: inline-block;
     margin-top: 10px;
 }
-
 .Footer .Left ul li:first-child {
     margin-left: 90px;
 }
-
 .Footer .Left p {
     width: 230px;
     height: 40px;
     margin-left: 121px;
     margin-top: 150px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 101.38%;
     color: #FFFFFF;
 }
-
 .Footer .Right {
     margin-top: -345px;
 }
-
 .Footer .Right ul li {
     margin-left: 900px;
     margin-top: 20px;
 }
-
 .Footer .Right ul li #one {
     width: 27px;
     height: 27px;
 }
-
 .Footer .Right ul li #two {
     width: 27px;
     height: 18px;
 }
-
 .Footer .Right p {
     display: inline-block;
     margin-left: 30px;
     width: 230px;
     height: 40px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 25px;
-    line-height: 101.38%;
     color: #FFFFFF;
 }
-
 /*Mecid end*/
 
-@media (min-width:991px) and (max-width:1279px) {
+@media (min-width:600px) and (max-width:1279px) {
 
     /*Mecid start*/
     .container {
@@ -1215,8 +923,6 @@ ul li {
     /*Ramila start*/
     .programcourse {
         margin-top: 100px;
-        padding-left: 70px;
-        padding-right: 70px;
         margin-bottom: 50px;
         width: 100%;
     }
@@ -1224,38 +930,34 @@ ul li {
     .programcourse h1 {
         width: 525px;
         height: 54px;
-        margin-left: 71px;
-        margin-top: 100px;
         font-weight: 700;
         font-size: 32px;
         line-height: 101.38%;
         color: #000000;
     }
-.allBlock{
-    width: 100%;
-    padding-right: 100vw;
+.allBlock1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
 }
     .oneBlock {
-        display: flex;
-        flex-direction: column;
-        width: 231px;
+        width: 271px;
         height: 190px;
-        margin-left: 50px;
-        margin-top: 50px;
+        margin-right: 50px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
     .oneBlock img {
-        width: 231px;
+        width: 271px;
         height: 93px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
 
     .oneBlock h4 {
-        width: 211px;
+        width: 251px;
         height: 23px;
         padding-left: 15px;
         font-weight: 700;
@@ -1265,7 +967,7 @@ ul li {
     }
 
     .oneBlock p {
-        width: 211px;
+        width: 251px;
         height: 36px;
         padding-left: 15px;
         font-weight: 400;
@@ -1275,26 +977,23 @@ ul li {
     }
 
     .twoBlock {
-        display: flex;
-        flex-direction: column;
-        width: 231px;
+        width: 271px;
         height: 190px;
-        margin-left: 302px;
-        margin-top: -188px;
+        margin-right: 50px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
     .twoBlock img {
-        width: 231px;
+        width: 271px;
         height: 93px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
 
     .twoBlock h4 {
-        width: 211px;
+        width: 251px;
         height: 23px;
         padding-left: 15px;
         font-weight: 700;
@@ -1304,7 +1003,7 @@ ul li {
     }
 
     .twoBlock p {
-        width: 211px;
+        width: 251px;
         height: 36px;
         padding-left: 15px;
         font-weight: 400;
@@ -1314,26 +1013,22 @@ ul li {
     }
 
     .threeBlock {
-        display: flex;
-        flex-direction: column;
-        width: 231px;
+        width: 271px;
         height: 190px;
-        margin-left: 554px;
-        margin-top: -188px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
     .threeBlock img {
-        width: 231px;
+        width: 271px;
         height: 93px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
 
     .threeBlock h4 {
-        width: 211px;
+        width: 251px;
         height: 23px;
         padding-left: 15px;
         font-weight: 700;
@@ -1343,7 +1038,7 @@ ul li {
     }
 
     .threeBlock p {
-        width: 211px;
+        width: 251px;
         height: 36px;
         padding-left: 15px;
         font-weight: 400;
@@ -1351,28 +1046,29 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
+.allBlock2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
     .fourBlock {
-        display: flex;
-        flex-direction: column;
-        width: 231px;
+        width: 271px;
         height: 190px;
-        margin-left: 50px;
-        margin-top: 50px;
+        margin-right: 50px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
     .fourBlock img {
-        width: 231px;
+        width: 271px;
         height: 93px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
 
     .fourBlock h4 {
-        width: 211px;
+        width: 251px;
         height: 23px;
         padding-left: 15px;
         font-weight: 700;
@@ -1382,7 +1078,7 @@ ul li {
     }
 
     .fourBlock p {
-        width: 211px;
+        width: 251px;
         height: 36px;
         padding-left: 15px;
         font-weight: 400;
@@ -1392,26 +1088,23 @@ ul li {
     }
 
     .fiveBlock {
-        display: flex;
-        flex-direction: column;
-        width: 231px;
+        width: 271px;
         height: 190px;
-        margin-left: 302px;
-        margin-top: -188px;
+        margin-right: 50px;
         background: #FFFFFF;
         border-radius: 30px;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     }
 
     .fiveBlock img {
-        width: 231px;
+        width: 271px;
         height: 93px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
 
     .fiveBlock h4 {
-        width: 211px;
+        width: 251px;
         height: 23px;
         padding-left: 15px;
         font-weight: 700;
@@ -1421,7 +1114,7 @@ ul li {
     }
 
     .fiveBlock p {
-        width: 211px;
+        width: 251px;
         height: 36px;
         padding-left: 15px;
         font-weight: 400;
@@ -1431,26 +1124,22 @@ ul li {
     }
 
     .sixBlock {
-        display: flex;
-        flex-direction: column;
-        width: 231px;
+        width: 271px;
         height: 190px;
-        margin-left: 554px;
-        margin-top: -188px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
     .sixBlock img {
-        width: 231px;
+        width: 271px;
         height: 93px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
 
     .sixBlock h4 {
-        width: 211px;
+        width: 251px;
         height: 23px;
         padding-left: 15px;
         font-weight: 700;
@@ -1460,7 +1149,7 @@ ul li {
     }
 
     .sixBlock p {
-        width: 211px;
+        width: 251px;
         height: 36px;
         padding-left: 15px;
         font-weight: 400;
@@ -1468,28 +1157,29 @@ ul li {
         line-height: 130%;
         color: #000000;
     }
-
+.allBlock3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
     .sevenBlock {
-        display: flex;
-        flex-direction: column;
-        width: 231px;
+        width: 271px;
         height: 190px;
-        margin-left: 50px;
-        margin-top: 50px;
+        margin-right: 50px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
     .sevenBlock img {
-        width: 231px;
+        width: 271px;
         height: 93px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
 
     .sevenBlock h4 {
-        width: 211px;
+        width: 251px;
         height: 23px;
         padding-left: 15px;
         font-weight: 700;
@@ -1499,7 +1189,7 @@ ul li {
     }
 
     .sevenBlock p {
-        width: 211px;
+        width: 251px;
         height: 36px;
         padding-left: 15px;
         font-weight: 400;
@@ -1509,26 +1199,22 @@ ul li {
     }
 
     .eightBlock {
-        display: flex;
-        flex-direction: column;
-        width: 231px;
+        width: 271px;
         height: 190px;
-        margin-left: 302px;
-        margin-top: -488px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
     }
 
     .eightBlock img {
-        width: 231px;
+        width: 271px;
         height: 93px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
     }
 
     .eightBlock h4 {
-        width: 211px;
+        width: 251px;
         height: 41px;
         padding-left: 15px;
         font-weight: 700;
@@ -1538,7 +1224,7 @@ ul li {
     }
 
     .eightBlock p {
-        width: 211px;
+        width: 251px;
         height: 36px;
         padding-left: 15px;
         padding-top: 10px;
