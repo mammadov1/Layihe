@@ -61,14 +61,10 @@ header img {
     margin-top: 100px;
 }
 .movie h1 {
-    width: 628px;
-    height: 190px;
     font-size: 80px;
 }
 .movie p {
     margin-top: 50px;
-    width: 414px;
-    height: 62px;
     font-size: 20px;
 }
 .movie img {
@@ -109,13 +105,9 @@ header img {
     flex-direction: row;
 }
 .content h2 {
-    width: 365px;
-    height: 93px;
     font-size: 55px;
 }
 .content p {
-    width: 662px;
-    height: 374px;
     font-size: 24px;
     margin-top: 50px;
 }
@@ -210,8 +202,6 @@ header img {
     margin-top: 200px;
 }
 .programcourse h1 {
-    width: 905px;
-    height: 93px;
     font-size: 60px;
 }
 .allBlock1{

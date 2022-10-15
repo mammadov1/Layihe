@@ -1,4 +1,4 @@
-@media (min-width:900px) and (max-width:1300px) {
+@media (min-width:980px) and (max-width:1300px) {
 
     /*Mecid start*/
     .container {
@@ -52,19 +52,15 @@
         margin-top: 100px;
     }
     .movie h1 {
-        width: 500px;
-        height: 190px;
         font-size: 70px;
     }.movie p {
         margin-top: 30px;
-        width: 390px;
-        height: 58px;
-        font-size: 18px;
+        font-size: 20px;
     }
     .movie img {
         width: 280px;
         height: 300px;
-        margin-left: 80px;
+        margin-left: 30px;
     }
     .about {
         width: 460px;
@@ -99,20 +95,16 @@
         flex-direction: row;
     }
     .content h2 {
-        width: 330px;
-        height: 90px;
-        font-size: 50px;
+        font-size: 55px;
     }
     .content p {
-        width: 450px;
-        height: 500px;
         font-size: 20px;
         margin-top: 35px;
     }
     .content img {
         width: 314px;
         height: 315px;
-        margin: 100px 0 0 100px;
+        margin: 100px 0 0 60px;
     }
     .text{
         display: flex;
@@ -196,11 +188,10 @@
     /*Ferid end*/
     /*Ramila start*/
     .programcourse {
+        width: 100%;
         margin-top: 100px;
     }
     .programcourse h1 {
-        width: 905px;
-        height: 93px;
         font-size: 50px;
     }
     .allBlock1{
@@ -209,7 +200,7 @@
         margin-top: 80px;
     }
     .oneBlock {
-        margin-right: 30px;
+        margin-right: 40px;
         width: 260px;
         height: 250px;
         background: #FFFFFF;
@@ -235,7 +226,7 @@
         font-size: 18px;
     }
     .twoBlock {
-        margin-right: 30px;
+        margin-right: 40px;
         width: 260px;
         height: 250px;
         background: #FFFFFF;
@@ -291,7 +282,7 @@
         margin-top: 80px;
     }
     .fourBlock {
-        margin-right: 30px;
+        margin-right: 40px;
         width: 260px;
         height: 250px;
         background: #FFFFFF;
@@ -317,7 +308,7 @@
         font-size: 18px;
     }
     .fiveBlock {
-        margin-right: 30px;
+        margin-right: 40px;
         width: 260px;
         height: 250px;
         background: #FFFFFF;
@@ -373,7 +364,7 @@
         margin-top: 80px;
     }
     .sevenBlock {
-        margin-right: 30px;
+        margin-right: 40px;
         width: 260px;
         height: 250px;
         background: #FFFFFF;
@@ -430,9 +421,9 @@
         background-color: #EFEFEF;
     }
     .card .cardHead2 {
-        width: 987px;
+        width: 800px;
         height: 93px;
-        font-size: 55px;
+        font-size: 50px;
         font-weight: bold;
         margin: 0 0 35px 122px;
     }
@@ -541,7 +532,6 @@ ul li {
 .Footer {
     width: 100%;
     height: 390px;
-    margin-left: -1px;
     background: #000000;
 }
 .Footer .Left img {
@@ -573,7 +563,7 @@ ul li {
     margin-top: -345px;
 }
 .Footer .Right ul li {
-    margin: 20px 0 0 900px;
+    margin: 20px 0 0 600px;
 }
 .Footer .Right ul li #one {
     width: 27px;
@@ -592,3 +582,6 @@ ul li {
     color: #FFFFFF;
 }
 /*Mecid end*/
+}
+
+
