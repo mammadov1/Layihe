@@ -11,10 +11,7 @@
     color: #000;
 }
 .container {
-    margin-bottom: 100px;
-    padding-left: 120px;
-    margin-right: 120px;
-    padding-top: 60px;
+    padding: 60px 120px 100px 120px;
     width: 100%;
 }
 header img {
@@ -28,13 +25,12 @@ header img {
 }
 .time .course img {
     width: 22px;
-    height: 21px;
+    height: 22px;
 }
 .time .course p {
     width: 500px;
     height: 32px;
-    margin-left: 30px;
-    margin-top: -25px;
+    margin: -25px 0 0 30px;
     font-size: 20px;
 }
 .time .clock img {
@@ -45,8 +41,7 @@ header img {
 .time .clock p {
     width: 130px;
     height: 32px;
-    margin-left: -320px;
-    margin-top: -25px;
+    margin: -25px 0 0 -320px ;
     font-size: 20px;
 }
 .time .calendar img {
@@ -57,14 +52,13 @@ header img {
 .time .calendar p {
     width: 130px;
     height: 32px;
-    margin-left: -170px;
-    margin-top: -25px;
+    margin: -25px 0 0 -170px;
     font-size: 20px;
 }
 .movie {
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .movie h1 {
     width: 628px;
@@ -85,15 +79,13 @@ header img {
 .about {
     width: 483.63px;
     height: 200px;
-    margin-left: 300px;
-    margin-top: 100px;
+    margin: 100px 0 0 300px;
     background: #1E4681;
     border-radius: 5px;
 }
 .about p {
     width: 430.59px;
     height: 113px;
-    font-weight: 400;
     font-size: 25px;
     color: #FFFFFF;
     margin-left: 20px;
@@ -102,9 +94,7 @@ header img {
 .about span {
     width: 280.5px;
     height: 45.64px;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 130%;
     text-align: right;
     color: #FFFFFF;
     display: inline-block;
@@ -208,8 +198,7 @@ header img {
     font-size: 18px;
 }
 .learn-list {
-    margin-left: 20px;
-    margin-top: 50px;
+    margin: 50px 0 0 20px;
     font-size: 24px;
 }
 .learn-list-item {
@@ -386,8 +375,7 @@ header img {
 .sixBlock p {
     width: 330px;
     height: 63px;
-    padding-top: 30px;
-    padding-left: 25px;
+    padding: 30px 0 0 25px;
     font-size: 25px;
 }
 .allBlock3{
@@ -418,8 +406,7 @@ header img {
 .sevenBlock p {
     width: 330px;
     height: 63px;
-    padding-top: 30px;
-    padding-left: 25px;
+    padding: 30px 0 0 25px;
     font-size: 25px;
 }
 .eightBlock {
@@ -444,12 +431,10 @@ header img {
 .eightBlock p {
     width: 330px;
     height: 63px;
-    padding-left: 25px;
-    padding-top: 30px;
+    padding: 30px 0 0 25px;
     font-size: 25px;
 }
 /*Ramila end*/
-
 /*Naila Aliyeva start*/
 .card {
     padding: 5em 0em 3em;
@@ -460,27 +445,23 @@ header img {
     height: 93px;
     font-size: 55px;
     font-weight: bold;
-    margin-bottom: 35px;
-    margin-left: 122px;
+    margin: 0 0 35px 122px;
 }
 .card .box {
     height: 451px;
     width: 791px;
     border-radius: 30px;
-    margin-left: 126px;
-    padding: 20px;
-    padding-left: 40px;
+    margin: 0 0 100px 126px;
+    padding: 20px 0 0 40px;
     box-shadow: 1px 1px 20px 0px #00000040;
     background-color: white;
-    margin-bottom: 100px;
 }
 .card .box .up {
     height: 203px;
     width: 700px;
     left: 170px;
     font-size: 20px;
-    padding-top: 20px;
-    padding-right: 0px;
+    padding: 20px 0 0 0;
     margin-bottom: 15px;
 }
 .card .box .down {
@@ -571,14 +552,12 @@ ul li {
 .Footer {
     width: 100%;
     height: 390px;
-    margin-left: -1px;
     background: #000000;
 }
 .Footer .Left img {
     width: 115px;
     height: 68px;
-    margin-left: 121px;
-    margin-top: 30px;
+    margin: 30px 0 0 121px;
     display: inline-block;
 }
 .Footer .Left ul li img {
@@ -596,8 +575,7 @@ ul li {
 .Footer .Left p {
     width: 230px;
     height: 40px;
-    margin-left: 121px;
-    margin-top: 150px;
+    margin: 150px 0 0 121px;
     font-size: 18px;
     color: #FFFFFF;
 }
@@ -605,8 +583,7 @@ ul li {
     margin-top: -345px;
 }
 .Footer .Right ul li {
-    margin-left: 900px;
-    margin-top: 20px;
+    margin: 20px 0 0 900px;
 }
 .Footer .Right ul li #one {
     width: 27px;
@@ -625,5 +602,3 @@ ul li {
     color: #FFFFFF;
 }
 /*Mecid end*/
-
-
