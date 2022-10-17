@@ -1,48 +1,51 @@
 @media(min-width: 300px) and (max-width:600px) {
     /*Mecid start*/
     .container {
-        padding: 30px 40px 40px 30px;
+        padding: 20px 30px 20px 30px;
     }
     header img {
-        width: 70px;
-        height: 45px;
+        width: 50px;
+        height: 30px;
     }
     .time {
         display: flex;
         flex-direction: row;
-        margin-top: 50px;
+        margin-top: 40px;
     }
     .time .course img {
-        width: 16px;
-        height: 16px;
+        width: 10px;
+        height: 10px;
     }
     .time .course p {
         width: 90px;
-        height: 14.91px;
-        margin: -20px 0 0 25px;
-        font-size: 14px;
+        height: 10px;
+        padding: 12px;
+        margin-left: 5px;
+        font-size: 10px;
     }
     .time .clock img {
-        width: 16px;
-        height: 16px;
-        margin-left: 30px;
+        width: 10px;
+        height: 10px;
+        margin-left: -6px;
     }
     .time .clock p {
         width: 90px;
-        height: 14.91px;
-        margin: -20px 0 0 55px;
-        font-size: 14px;
+        height: 10px;
+      padding: 12px;
+      margin-left: -4px;
+        font-size: 10px;
     }
     .time .calendar img {
-        width: 16px;
-        height: 16px;
-        margin-left: 20px;
+        width: 10px;
+        height: 10px;
+        margin-left: -10px;
     }
     .time .calendar p {
         width: 90px;
-        height: 14.91px;
-        margin: -20px 0 0 50px;
-        font-size: 14px;
+        height: 10px;
+        padding: 12px;
+        margin-left: -4px;
+        font-size: 10px;
     }
     .movie {
         display: flex;
@@ -57,13 +60,14 @@
     }
     .movie img {
         margin-top: 50px;
-        width: 270px;
-        height: 300px;
+        width: 200px;
+        height: 230px;
+        margin-left: 30px;
     }
     .about {
         width: 300px;
         height: 150px;
-        margin: 50px 0 0 37px;
+        margin: 50px 0 0 0px;
         background: #1E4681;
         border-radius: 5px;
     }
@@ -99,28 +103,33 @@
     .content img {
         width: 230px;
         height: 220px;
-        margin: 40px 0 0 80px;
+        margin: 40px 0 0 30px;
     }
     .text img {
         display: none;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        margin-left: -20px;
     }
     .lesson h4 {
         width: 130px;
         height: 18.17px;
         font-size: 20px;
-        margin-left: 40px;
+      
     }
     .lesson p {
         width: 150px;
         height: 18px;
         font-size: 15px;
-        margin-left: 40px;
         margin-top: 10px;
     }
     .hour h4 {
         width: 90px;
         height: 18.17px;
         font-size: 20px;
+        margin-top: 35px;
     }
     .hour p {
         width: 130px;
@@ -131,14 +140,12 @@
     .weak h4 {
         width: 90px;
         height: 18.17px;
-        margin-left: -380px;
-        margin-top: 100px;
         font-size: 20px;
+        margin-top: 35px;
     }
     .weak p {
         width: 76px;
         height: 18px;
-        margin-left: -380px;
         font-size: 15px;
         margin-top: 10px;
     }
@@ -183,7 +190,7 @@
     .allBlock1{
         display: flex;
         flex-direction: column;
-        margin: 50px 0 0 100px;
+        margin: 50px 0 0 -5px;
     }
     .oneBlock {
         width: 280px;
@@ -265,7 +272,7 @@
     .allBlock2{
         display: flex;
         flex-direction: column;
-        margin: 30px 0 0 100px;
+        margin: 30px 0 0 -5px;
     }
     .fourBlock {
         width: 280px;
@@ -347,7 +354,7 @@
     .allBlock3{
         display: flex;
         flex-direction: column;
-        margin:30px 0 0 100px;
+        margin:30px 0 0 -5px;
     }
     .sevenBlock {
         width: 280px;
