@@ -63,7 +63,7 @@
     .about {
         width: 300px;
         height: 150px;
-        margin: 50px 0 0 37px;
+        margin: 50px 0 0 170px;
         background: #1E4681;
         border-radius: 5px;
     }
@@ -76,12 +76,14 @@
         color: #FFFFFF;
     }
     .about span {
-        width: 130.7px;
-        height: 21.27px;
-        font-size: 15px;
+        width: 280.5px;
+        height: 45.64px;
+        font-size: 16px;
         text-align: right;
         color: #FFFFFF;
         display: inline-block;
+        margin-left: 10px;
+        padding-top: 1px;
     }
     /*Mecid end*/
     /*Ramila start*/
@@ -180,11 +182,11 @@
     .programcourse h1 {
         font-size: 35px;
     }
-    .allBlock1{
+    .allBlock{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 50px 0 0 0px;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        gap: 30px;
     }
     .oneBlock {
         width: 280px;
@@ -214,7 +216,6 @@
     .twoBlock {
         width: 280px;
         height: 250px;
-        margin-top: 30px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
@@ -240,8 +241,6 @@
     .threeBlock {
         width: 280px;
         height: 250px;
-        margin-top: 30px;
-        margin-left: -25px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
@@ -263,12 +262,6 @@
         height: 30px;
         padding-left: 15px;
         font-size: 15px;
-    }
-    .allBlock2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 30px 0 0 0;
     }
     .fourBlock {
         width: 280px;
@@ -298,7 +291,6 @@
     .fiveBlock {
         width: 280px;
         height: 250px;
-        margin-top: 30px;
         background: #FFFFFF;
         border-radius: 30px;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
@@ -324,8 +316,6 @@
     .sixBlock {
         width: 280px;
         height: 250px;
-        margin-top: 30px;
-        margin-left: -25px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
@@ -347,12 +337,6 @@
         height: 30px;
         padding-left: 15px;
         font-size: 15px;
-    }
-    .allBlock3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin:30px 0 0 0;
     }
     .sevenBlock {
         width: 280px;
@@ -382,8 +366,6 @@
     .eightBlock {
         width: 280px;
         height: 250px;
-        margin-top: 30px;
-        margin-left: -25px;
         background: #FFFFFF;
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
